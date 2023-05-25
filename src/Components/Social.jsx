@@ -2,7 +2,7 @@ import React from 'react'
 
 const Social = () => {
   return (
-    <div>Social</div>
+    <div className='w-[100%] h-[90vh]'>Social</div>
   )
 }
 
