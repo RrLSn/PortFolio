@@ -8,7 +8,7 @@ const NavBar = () => {
       <div className='name'>Name</div>
       <div className='w-[18rem] flex justify-between text-center'>
         <a href="">Skills</a>
-        <a href="">Project</a>
+        <a href="" className='flex text-red-500 gap-2'><img src="settingsicon.svg" alt="" /> Project</a>
         <a href="">Contact Me</a>
       </div>
     </main>

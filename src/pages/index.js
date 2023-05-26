@@ -10,8 +10,8 @@ export default function Home() {
       <NavBar />
       <About />
       <Projects />
-      {/* <Social /> */}
-      {/* <ContactMe /> */}
+      <Social />
+      <ContactMe />
     </div>
   )
 }
