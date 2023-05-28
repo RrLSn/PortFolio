@@ -1,0 +1,15 @@
+.skills{
+    @apply flex flex-wrap w-[25vw] gap-6 justify-evenly py-[2rem]
+}
+
+.wrapper{
+    @apply w-[100vw] h-[30rem] p-[2rem]
+}
+
+.span{
+    @apply flex justify-between px-[13rem]
+}
+
+.heading{
+    @apply text-red-500 flex justify-center mb-[2rem] font-[500]
+}

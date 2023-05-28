@@ -1,0 +1,11 @@
+.wrapper{
+    @apply w-[100%] h-[5rem] py-[1rem] px-[5rem] flex justify-between items-center border-b-[0.17rem] border-b-gray-400
+}
+
+.logo{
+    @apply flex gap-1 text-[2.5rem] font-[700] text-blue-900
+}
+
+.main{
+    @apply w-[18rem] flex justify-between text-center
+}

@@ -1,0 +1,16 @@
+.wrapper{
+    @apply w-[100%] h-[70vh] bg-[#343D68] py-[2rem]
+}
+
+.heading{
+    @apply flex flex-col items-center text-white mb-[1.5rem]
+}
+
+.eachProject{
+    background-image: linear-gradient(to right,#1edfd1,#17a5c9,#0e5dbf);
+    @apply text-white w-[25rem] h-[23rem] p-[0.2rem]
+}
+
+.button{
+    @apply flex border-2 py-[0.3rem] items-center gap-2 px-[1rem]
+}

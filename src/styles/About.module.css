@@ -1,0 +1,20 @@
+.container{
+    background-image: linear-gradient(to right,#343d68,rgb(192, 138, 192), rgb(207, 140, 140) );
+    @apply w-[100vw] h-[max-content]  py-[2rem]
+}
+
+.section{
+    @apply flex p-[2rem] justify-between
+}
+
+.button{
+    @apply h-[4vh] w-[6vw] bg-red-500 text-white rounded-lg
+}
+
+.description{
+    @apply w-[30rem] py-[1.5rem] font-[400]
+}
+
+.desc{
+    @apply text-4xl font-[500] w-[21rem] leading-[3rem]
+}
