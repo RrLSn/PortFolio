@@ -8,7 +8,7 @@
 }
 
 .button{
-    @apply h-[4vh] w-[6vw] bg-red-500 text-white rounded-lg
+    @apply h-[4vh] w-[6vw] bg-red-500 text-white rounded-lg active:bg-red-900
 }
 
 .description{

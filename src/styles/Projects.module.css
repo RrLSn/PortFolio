@@ -12,5 +12,13 @@
 }
 
 .button{
-    @apply flex border-2 py-[0.3rem] items-center gap-2 px-[1rem]
+    @apply flex border-2 py-[0.3rem] items-center gap-2 px-[1rem] active:bg-slate-600
+}
+
+.projectWrapper{
+    @apply w-[100%] h-[100%] bg-[#262c4c] flex flex-col items-center
+}
+
+.appname{
+    @apply font-[500] mt-3
 }

@@ -1,0 +1,15 @@
+.wrapper{
+    @apply w-[100%] h-[20vh] bg-[#343D68] text-white flex justify-between items-center px-[10rem]
+}
+
+.socials{
+    @apply flex gap-[2rem] py-8
+}
+
+.social{
+    @apply w-[1.7rem] cursor-pointer
+}
+
+.gitProfile{
+    @apply flex gap-2 py-8 items-center
+}

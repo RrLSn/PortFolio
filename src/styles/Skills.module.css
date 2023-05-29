@@ -3,7 +3,7 @@
 }
 
 .wrapper{
-    @apply w-[100vw] h-[30rem] p-[2rem]
+    @apply w-[100vw] h-[30rem] pt-[2rem] px-[2rem]
 }
 
 .span{

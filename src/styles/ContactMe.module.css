@@ -1,0 +1,23 @@
+.heading{
+    @apply text-red-500 flex justify-center mb-[2rem] font-[500]
+}
+
+.main{
+    @apply w-[70vw] m-auto flex justify-between my-[4rem]
+}
+
+.inputMsg{
+    @apply w-[100%] focus:outline-none py-[0.5rem] px-[1rem] rounded-lg shadow-lg
+}
+
+.msgWrapper{
+    @apply flex flex-col justify-evenly items-center
+}
+
+.textarea{
+    @apply focus:outline-none resize-none py-[0.5rem] px-[1rem] rounded-lg shadow-lg
+}
+
+.button{
+    @apply w-[max-content] py-[0.5rem] px-[1rem] flex items-center gap-3 bg-[#343D68] rounded-md text-white active:bg-slate-600
+}
