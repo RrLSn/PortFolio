@@ -1,3 +1,7 @@
 .container{
     @apply w-screen h-[max-content] bg-[#E5E5E5]
 }
+
+.main{
+    @apply mt-12
+}

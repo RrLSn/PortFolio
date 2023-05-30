@@ -1,5 +1,5 @@
 .wrapper{
-    @apply w-[100%] h-[20vh] bg-[#343D68] text-white flex justify-between items-center px-[10rem]
+    @apply w-[100%] h-[15vh] bg-[#343D68] text-white flex justify-between items-center px-[10rem]
 }
 
 .socials{
@@ -7,9 +7,26 @@
 }
 
 .social{
+    display: inline-block;
+    transition-property: transform;
+    transition-duration: 2s;
     @apply w-[1.7rem] cursor-pointer
+}
+
+.social:hover{
+    transform: rotateY(180deg);
 }
 
 .gitProfile{
     @apply flex gap-2 py-8 items-center
+}
+
+.git{
+    display: inline-block;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+.git:hover{
+    transform: rotateY(180deg);
 }

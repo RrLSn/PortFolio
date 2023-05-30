@@ -5,12 +5,12 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <main className={styles.container}>
+    <main className={styles.container} id='About'>
 
         <section className={styles.section}>
           <div className='p-[4rem]'>
             <h1 className={styles.desc}>Hi👋, I’m a <strong>Software Developer</strong></h1>
-            <p className={styles.description}>I am <strong>Sodiq Afolabi</strong>, a skilled frontend developer who excels at creating engaging and user-friendly interfaces for web applications.</p>
+            <p className={styles.description}>I am <strong>Sodiq Afolabi</strong>, a skilled frontend developer who is specialize in creating user-friendly interfaces for web applications.</p>
             <button className={styles.button}>Hire Me</button>
           </div>
 

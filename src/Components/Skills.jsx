@@ -5,7 +5,7 @@ import styles from '../styles/Skills.module.css'
 
 const Skills = () => {
   return (
-    <div className={styles.wrapper} id='skill'>
+    <div className={styles.wrapper} id='skills'>
       <p className={styles.heading}>Skills</p>
 
       <span className={styles.span}>

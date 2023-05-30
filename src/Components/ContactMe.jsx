@@ -1,13 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/ContactMe.module.css'
+import Footer from './Footer'
 
 const ContactMe = () => {
   return (
-    <main className='w-[100%] h-[80vh] py-[3rem]' id='contact'>
+    <main className={styles.parentWrapper} id='contact'>
       <p className={styles.heading}>Contact me</p>
       <aside className={styles.main}>
-          <Image src={"/Svg/contact.svg"} width={400} height={400} />
+          <Image src={"/Svg/contact.svg"} width={400} height={400} className={styles.contact} />
 
           <div className={styles.msgWrapper}>
             <input type="email" className={styles.inputMsg} placeholder='Enter email address' />
@@ -19,6 +20,8 @@ const ContactMe = () => {
             </button>
           </div>
       </aside>
+
+      <Footer />
     </main>
   )
 }

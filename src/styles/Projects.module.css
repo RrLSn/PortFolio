@@ -1,5 +1,5 @@
 .wrapper{
-    @apply w-[100%] h-[70vh] bg-[#343D68] py-[2rem]
+    @apply w-[100%] h-[70vh] bg-[#343D68] py-[2rem] 
 }
 
 .heading{
