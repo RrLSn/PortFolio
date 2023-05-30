@@ -1,5 +1,5 @@
 import React from 'react'
-import Skill from './Skill'
+import Skill from '@/Components/Skill'
 import Image from 'next/image'
 import styles from '../styles/Skills.module.css'
 

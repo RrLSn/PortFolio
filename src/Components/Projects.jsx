@@ -1,5 +1,5 @@
 import React from 'react'
-import LearnMore from './LearnMore'
+import LearnMore from '@/Components/LearnMore'
 import styles from '../styles/Projects.module.css'
 import Image from 'next/image'
 

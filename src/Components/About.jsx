@@ -9,8 +9,8 @@ const About = () => {
 
         <section className={styles.section}>
           <div className='p-[4rem]'>
-            <h1 className={styles.desc}>Hi👋, I’m a <strong>Software Developer</strong></h1>
-            <p className={styles.description}>I am <strong>Sodiq Afolabi</strong>, a skilled frontend developer who is specialize in creating user-friendly interfaces for web applications.</p>
+            <h1 className={styles.desc}>Hi👋, I&apos;m a <strong>Software Developer</strong></h1>
+            <p className={styles.description}>I&apos;m <strong>Sodiq Afolabi</strong>, a skilled frontend developer who is specialize in creating user-friendly interfaces for web applications.</p>
             <button className={styles.button}>Hire Me</button>
           </div>
 

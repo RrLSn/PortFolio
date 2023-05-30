@@ -1,5 +1,5 @@
 import React from 'react'
-import Socialmedia from './socialmedia'
+import Socialmedia from '@/Components/socialmedia'
 import styles from '../styles/Footer.module.css'
 import Image from 'next/image'
 
