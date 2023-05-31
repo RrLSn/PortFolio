@@ -1,5 +1,5 @@
 import React from 'react'
-import Socialmedia from '@/Components/socialmedia'
+import Socialmedia from './Socialmedia'
 import styles from '../styles/Footer.module.css'
 import Image from 'next/image'
 
@@ -17,11 +17,11 @@ const Footer = () => {
       </div>
 
       <div>
-        <p className='font-[500]'>More projects I’ve worked on</p>
+        <p className='font-[500]'>More projects I&apos;ve worked on</p>
         
         <div className={styles.gitProfile}>
           <Image src={"/Svg/github.svg"} width={20} height={20} className={styles.git} />
-          <p>@<a href="https://github.com/RrLSn?tab=repositories" target='_blank' className='text-[#0ACBBF] active:text-[#35837e]'>RrLSn</a> on github</p>
+          <p>@<a href="https://github.com/RrLSn?tab=repositories" target='_blank' className='text-[#0ACBBF] hover:text-[#41ece0] hover:delay-100'>RrLSn</a> on github</p>
         </div>
       </div>
     </section>

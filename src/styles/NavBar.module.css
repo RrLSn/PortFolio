@@ -1,7 +1,8 @@
 .wrapper{
     position: fixed;
     background-color: #e5e5e5;
-    @apply w-[100%] h-[5rem] px-[5rem] flex justify-between items-center border-b-[0.17rem] border-b-gray-400
+    z-index: 1;
+    @apply w-[100%] py-[1rem] px-[4rem] flex justify-between items-center border-b-[0.17rem] border-b-gray-400
 }
 
 .logo{

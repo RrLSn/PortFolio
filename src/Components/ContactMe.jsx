@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/ContactMe.module.css'
-import Footer from '@/Components/Footer'
+import Footer from './Footer'
 
 const ContactMe = () => {
   return (

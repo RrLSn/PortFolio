@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/Footer.module.css'
 
-const socialmedia = (props) => {
+const Socialmedia = (props) => {
     const {socialIcon, link} = props
     return (
       <div>
@@ -13,4 +13,4 @@ const socialmedia = (props) => {
     )
 }
 
-export default socialmedia
+export default Socialmedia

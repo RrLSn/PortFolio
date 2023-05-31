@@ -8,7 +8,34 @@
 }
 
 .button{
-    @apply h-[4vh] w-[6vw] bg-red-500 text-white rounded-lg active:bg-red-900
+    display: inline-block;
+    position: relative;
+    opacity: 0;
+    top: 0;
+    animation-name: button;
+    transition-property: all;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    @apply w-[6vw] bg-red-500 text-white rounded-lg active:bg-red-900 py-[0.3rem] px-[1rem]
+}
+
+@keyframes button {
+    0% {opacity: 0; transform: rotateY(180deg); top: -50px;}
+    100% {opacity: 1; top: 0;}
+}
+
+.icons{
+    position: relative;
+    animation-name: icons;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+}
+
+@keyframes icons {
+    0% {top: -100px;}
+    100% {top: 0;}
 }
 
 .description{
