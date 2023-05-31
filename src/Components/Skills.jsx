@@ -23,9 +23,7 @@ const Skills = () => {
           </aside>
         </div>
 
-        <div>
-          <Image src={"/Svg/skill.svg"} width={350} height={350} />
-        </div>
+          <Image src={"/Svg/skill.svg"} width={350} height={350} className='lg:flex hidden' />
       </span>
     </div>
   )

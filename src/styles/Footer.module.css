@@ -1,5 +1,5 @@
 .wrapper{
-    @apply w-[100%] h-[15vh] bg-[#343D68] text-white flex justify-between items-center px-[10rem]
+    @apply w-[100%] bg-[#343D68] text-white flex justify-between items-center px-[10rem]
 }
 
 .socials{

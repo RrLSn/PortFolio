@@ -1,5 +1,5 @@
 .wrapper{
-    @apply w-[100%] h-[70vh] bg-[#343D68] py-[2rem] 
+    @apply w-[100%] h-[max-content] bg-[#343D68] py-[2rem] 
 }
 
 .heading{
@@ -8,7 +8,7 @@
 
 .eachProject{
     background-image: linear-gradient(to right,#1edfd1,#17a5c9,#0e5dbf);
-    @apply text-white w-[25rem] h-[23rem] p-[0.2rem]
+    @apply text-white w-[20rem] h-[23rem] p-[0.2rem] lg:mt-0 mt-5 m-auto
 }
 
 .button{

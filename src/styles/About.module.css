@@ -4,7 +4,7 @@
 }
 
 .section{
-    @apply flex p-[2rem] justify-between
+    @apply lg:flex py-[6rem] px-[4rem] justify-between
 }
 
 .button{
@@ -17,7 +17,7 @@
     animation-duration: 3s;
     animation-fill-mode: forwards;
     transition-timing-function: linear;
-    @apply w-[6vw] bg-red-500 text-white rounded-lg active:bg-red-900 py-[0.3rem] px-[1rem]
+    @apply w-[6rem] bg-red-500 text-white rounded-lg active:bg-red-900 py-[0.3rem] px-[1rem]
 }
 
 @keyframes button {
@@ -38,10 +38,14 @@
     100% {top: 0;}
 }
 
-.description{
-    @apply w-[30rem] py-[1.5rem] font-[400]
+.desc{
+    @apply lg:mb-0 mb-8
 }
 
-.desc{
-    @apply text-4xl font-[500] w-[21rem] leading-[3rem]
+.desc h1{
+    @apply text-4xl font-[500] lg:w-[21rem] leading-[3rem]
+}
+
+.desc p{
+    @apply lg:w-[30rem] w-[19rem] my-[1.5rem] font-[400] text-center
 }

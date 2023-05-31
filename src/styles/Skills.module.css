@@ -1,15 +1,19 @@
 .skills{
-    @apply flex flex-wrap w-[25vw] gap-6 justify-evenly py-[2rem]
+    @apply flex flex-wrap w-[25rem] gap-6 justify-evenly py-[2rem] 
 }
 
 .wrapper{
-    @apply w-[100vw] h-[30rem] pt-[2rem] px-[2rem]
+    @apply w-[100vw] pt-[2rem]
 }
 
 .span{
-    @apply flex justify-between px-[13rem]
+    @apply lg:flex justify-between w-[75rem] m-auto place-items-center
 }
 
 .heading{
     @apply text-red-500 flex justify-center mb-[2rem] font-[500]
+}
+
+.span div p{
+    @apply mx-2 text-center
 }

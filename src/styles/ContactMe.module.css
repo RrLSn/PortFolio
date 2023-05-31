@@ -1,5 +1,5 @@
 .parentWrapper{
-    @apply w-[100%] h-[90vh] pt-[3rem] flex flex-col justify-between
+    @apply w-[100%] h-screen pt-[3rem] flex flex-col justify-between
 }
 
 .heading{

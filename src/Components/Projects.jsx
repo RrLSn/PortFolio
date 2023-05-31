@@ -12,7 +12,7 @@ const Projects = () => {
           Projects</p>
         <p>A selected numbers of Projects</p>
       </div>
-      <span className='w-[60vw] flex gap-[2rem] m-auto'>
+      <span className='w-[63vw] lg:flex justify-between m-auto'>
         <LearnMore pics='/Media/TodoList.png' name="TODO LIST" desc='Made a Todo List website that allows user to add and delete list with ReactJS, TailwindCSS, Redux' projectUrl="https://polite-jalebi-c21795.netlify.app/" height='100' width='240' />
 
         <LearnMore  pics='/Media/WeatherApp.png' name="WEATHER APP" desc='Weather app that shows weather information of input location and shows the next 6days weather forecast' projectUrl="https://creative-clafoutis-d84b91.netlify.app/" height='100' width='240' />
