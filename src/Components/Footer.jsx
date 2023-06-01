@@ -6,8 +6,8 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <section className={styles.wrapper}>
-      <div className='font-[500]'>
-        <p>My social media links:</p>
+      <div className='lg:font-[500]'>
+        <p className='lg:flex hidden'>My social media links:</p>
         <div className={styles.socials}>
           <Socialmedia socialIcon='/Svg/linkedin.svg' link="https://www.linkedin.com/in/sodiq-afolabi-b91555270/" />
           <Socialmedia socialIcon="/Svg/whatsapp.svg" link="" />
@@ -17,7 +17,7 @@ const Footer = () => {
       </div>
 
       <div>
-        <p className='font-[500]'>More projects I&apos;ve worked on</p>
+        <p className='lg:font-[500] lg:flex hidden'>More projects I&apos;ve worked on</p>
         
         <div className={styles.gitProfile}>
           <Image src={"/Svg/github.svg"} width={20} height={20} className={styles.git} />

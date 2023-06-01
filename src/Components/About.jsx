@@ -6,11 +6,16 @@ import Image from 'next/image'
 const About = () => {
   return (
     <main className={styles.container} id='About'>
+        <div className={styles.menu}>
+          <a href="#skills" className='focus:text-red-500'>Skills</a>
+          <a href="#project" className='flex text-red-500 gap-2 focus:text-black'><img src="/Svg/settingsicon.svg" alt="" /> Projects</a>
+          <a href="#contact" className='focus:text-red-500'>Contact Me</a>
+        </div>
 
         <section className={styles.section}>
           <div className={styles.desc}>
             <h1>Hi👋, I&apos;m a <strong>Software Developer</strong></h1>
-            <p>I&apos;m <strong>Sodiq Afolabi</strong>, a skilled frontend developer who is specialize in creating user-friendly interfaces for web applications.</p>
+            <p>I&apos;m <strong>Sodiq Afolabi</strong>, a skilled frontend developer who is specialize in creating user-friendly interfaces for web applications. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <button className={styles.button}>Hire Me</button>
           </div>
 
@@ -24,7 +29,10 @@ const About = () => {
 
             <div className='flex'>
               <Image src={"/Svg/zigicon.svg"} width={15} height={15} className={`${styles.icons} mt-[12rem]`} />
-              {/* <img src="" alt="" /> */}
+              
+              <div>
+                {/* <img src="" alt="" /> */}
+              </div>
             </div>
           </span>
 

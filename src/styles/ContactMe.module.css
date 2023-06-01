@@ -1,17 +1,17 @@
 .parentWrapper{
-    @apply w-[100%] h-screen pt-[3rem] flex flex-col justify-between
+    @apply w-[100%] pt-[3rem] flex flex-col lg:gap-20 gap-14
 }
 
-.heading{
-    @apply text-red-500 flex justify-center mb-[2rem] font-[500]
+.parentWrapper h1{
+    @apply text-red-500 flex justify-center font-[500]
 }
 
 .main{
-    @apply w-[70vw] h-[max-content] m-auto flex justify-between mt-[4rem]
+    @apply w-[70vw] m-auto lg:flex justify-between
 }
 
-.inputMsg{
-    @apply w-[100%] focus:outline-none py-[0.5rem] px-[1rem] rounded-lg shadow-lg
+.msgWrapper input{
+    @apply lg:w-[30rem] w-[18rem] focus:outline-none py-[0.5rem] px-[1rem] rounded-lg shadow-lg
 }
 
 .msgWrapper{
@@ -20,15 +20,15 @@
     animation-fill-mode: forwards;
     animation-duration: 2s;
     animation-timing-function: linear;
-    @apply flex flex-col justify-evenly items-center
+    @apply lg:w-[35rem] w-[24rem] lg:h-[27rem] h-[23rem] flex flex-col justify-between lg:items-center lg:mt-0 mt-[5rem]
 }
 
-.textarea{
-    @apply focus:outline-none resize-none py-[0.5rem] px-[1rem] rounded-lg shadow-lg
+.msgWrapper textarea{
+    @apply lg:w-[30rem] w-[18rem] lg:h-[18rem] h-[15rem] focus:outline-none resize-none py-[0.5rem] px-[1rem] rounded-lg shadow-lg
 }
 
-.button{
-    @apply w-[max-content] py-[0.5rem] px-[1rem] flex items-center gap-3 bg-[#343D68] rounded-md text-white active:bg-slate-600
+.msgWrapper button{
+    @apply w-[max-content] py-[0.5rem] px-[1rem] flex gap-3 bg-[#343D68] rounded-md text-white active:bg-slate-600 lg:mx-0 mx-[3rem]
 }
 
 .contact{

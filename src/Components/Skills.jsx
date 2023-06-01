@@ -10,9 +10,9 @@ const Skills = () => {
 
       <span className={styles.span}>
         <div>
-          <p>I have a vast experience in the following web technologies:</p>
+          <p>I dedicates time to explore the following web technologies  and understands their importance in building the structure, design, and interactivity of websites:</p>
 
-          <aside className={styles.skills}>
+          <div className={styles.skills}>
             <Skill imgUrl='/Svg/html5.svg'/>
             <Skill imgUrl='/Svg/css.svg'/>
             <Skill imgUrl='/Svg/js.svg'/>
@@ -20,7 +20,7 @@ const Skills = () => {
             <Skill imgUrl='/Svg/tailwind.svg'/>
             <Skill imgUrl='/Svg/redux.svg'/>
             <Skill imgUrl='/Svg/next.svg'/>
-          </aside>
+          </div>
         </div>
 
           <Image src={"/Svg/skill.svg"} width={350} height={350} className='lg:flex hidden' />

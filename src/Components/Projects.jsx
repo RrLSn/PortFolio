@@ -10,7 +10,7 @@ const Projects = () => {
         <p className='flex gap-2 font-[500] mb-2'>
           <Image src={'/Svg/setting.svg'} width={30} height={30} />
           Projects</p>
-        <p>A selected numbers of Projects</p>
+        <p>A selected numbers of Projects I have worked on</p>
       </div>
       <span className='w-[63vw] lg:flex justify-between m-auto'>
         <LearnMore pics='/Media/TodoList.png' name="TODO LIST" desc='Made a Todo List website that allows user to add and delete list with ReactJS, TailwindCSS, Redux' projectUrl="https://polite-jalebi-c21795.netlify.app/" height='100' width='240' />

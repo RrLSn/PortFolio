@@ -14,6 +14,12 @@ const NavBar = () => {
         </div>
       </span>
       </a>
+      
+      <div className={styles.menuIcon}>
+        <div></div>
+        <div></div>
+      </div>
+
       <div className={styles.main}>
         <a href="#skills" className='focus:text-red-500'>Skills</a>
         <a href="#project" className='flex text-red-500 gap-2 focus:text-black'><img src="/Svg/settingsicon.svg" alt="" /> Projects</a>
