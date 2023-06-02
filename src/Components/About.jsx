@@ -6,11 +6,11 @@ import Image from 'next/image'
 const About = () => {
   return (
     <main className={styles.container} id='About'>
-        <div className={styles.menu}>
+        {/* <div className={styles.menu}>
           <a href="#skills" className='focus:text-red-500'>Skills</a>
           <a href="#project" className='flex text-red-500 gap-2 focus:text-black'><img src="/Svg/settingsicon.svg" alt="" /> Projects</a>
           <a href="#contact" className='focus:text-red-500'>Contact Me</a>
-        </div>
+        </div> */}
 
         <section className={styles.section}>
           <div className={styles.desc}>
