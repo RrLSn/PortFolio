@@ -14,7 +14,7 @@ const LearnMore = (props) => {
         <p>{desc}</p>
       </div>
       
-      <a href={projectUrl} target='_blank'><button className={styles.button}>Learn More <img src="/Svg/rightarrow.svg" alt="" /></button></a>
+      <a href={projectUrl} target='_blank'><button className={styles.button}>View <img src="/Svg/rightarrow.svg" alt="" /></button></a>
       </div>
     </div>
   )
