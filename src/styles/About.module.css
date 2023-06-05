@@ -51,5 +51,6 @@
 }
 
 .menu{
-    @apply w-[10rem] h-[8rem] bg-slate-600 m-0 flex flex-col items-center py-[1rem] justify-between
+    background-image: linear-gradient(to right,#343d68,rgb(192, 138, 192), rgb(207, 140, 140));
+    @apply w-[15rem] h-screen m-0 flex flex-col lg:hidden absolute border-r border-b items-center gap-5 py-16
 }
