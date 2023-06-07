@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from '../styles/Footer.module.css'
+import styles from '../styles/Intro.module.css'
 
 const Socialmedia = (props) => {
     const {socialIcon, link} = props

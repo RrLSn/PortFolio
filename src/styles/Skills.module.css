@@ -1,5 +1,5 @@
 .skills{
-    @apply flex flex-wrap w-[20rem] gap-6 justify-evenly py-[2rem] items-center m-auto
+    @apply flex flex-wrap lg:w-[25rem] w-[20rem] gap-x-7 gap-y-5 justify-evenly py-[2rem] items-center m-auto
 }
 
 .wrapper{

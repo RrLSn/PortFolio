@@ -50,7 +50,7 @@
     @apply lg:w-[30rem] w-[19rem] my-[1.5rem] font-[400] text-center
 }
 
-.menu{
-    background-image: linear-gradient(to right,#343d68,rgb(192, 138, 192), rgb(207, 140, 140));
-    @apply w-[15rem] h-[242.5rem] m-0 flex flex-col lg:hidden absolute border-r border-b items-center gap-5 py-16 opacity-100
-}
+/* .menu{
+    
+    @apply w-[15rem] right-full m-0 flex flex-col lg:hidden absolute border-r border-b items-center gap-5 py-16 opacity-100 bg-transparent
+} */

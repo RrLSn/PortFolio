@@ -1,0 +1,79 @@
+
+.mainWrapper{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/Media/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #151515;
+    background-blend-mode: darken;
+    @apply flex pr-[1.5rem]
+}
+
+.introText{
+    @apply flex flex-col w-[96vw] h-screen justify-center items-center text-white text-center gap-6
+}
+
+.introText p{
+    @apply text-[#cc005f] text-4xl overflow-hidden font-[500]
+}
+
+.introText h1{
+    @apply text-7xl font-[700] overflow-hidden
+}
+
+.introText h4{
+    @apply text-3xl overflow-hidden text-[#c2c2c2]
+}
+
+.introText button{
+    @apply w-[10rem] py-[12px] font-[500] border-2 border-[#c2c2c2]
+}
+
+.introText button:hover{
+    @apply border-[#cc005f]
+}
+
+.introText button:active{
+    @apply bg-neutral-700 text-black
+}
+
+.introIcon{
+    @apply w-[3vw] h-screen flex flex-col justify-center items-end
+}
+
+.icons{
+    @apply flex flex-col w-[20px] h-[40rem] gap-6 mt-[17rem]
+}
+
+.icons::before{
+    content: '';
+    display: block;
+    height: 30%;
+    width: 1px;
+    background-color: #c2c2c2;
+    position: absolute;
+    right: 27px;
+    top: 29rem;
+}
+
+.social{
+    display: inline-block;
+    position: initial;
+    opacity: 0;
+    top: 0;
+    animation-name: button;
+    transition-property: all;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+}
+
+.social:hover{
+    transform: rotateY(180deg);
+}
+
+@keyframes button {
+    0% {opacity: 0; transform: rotateY(180deg)}
+    100% {opacity: 0.5}
+}
