@@ -12,7 +12,7 @@ yarn dev
 pnpm dev
 ```
 
-Open [Here](https://coruscating-pixie-d4d2d0.netlify.app) with your browser to see the result.
+Open [Here](https://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
