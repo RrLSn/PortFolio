@@ -43,7 +43,7 @@
 }
 
 .icons{
-    @apply flex flex-col w-[20px] h-[40rem] gap-6 mt-[17rem]
+    @apply flex flex-col w-[20px] h-[40rem] gap-6 mt-[14rem]
 }
 
 .icons::before{
@@ -70,7 +70,7 @@
 }
 
 .social:hover{
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 @keyframes button {

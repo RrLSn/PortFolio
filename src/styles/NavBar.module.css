@@ -1,0 +1,19 @@
+.wrapper{
+    @apply w-screen h-[6rem] border-b-2 border-[#cc005f] backdrop-blur-sm fixed flex justify-between items-center px-10
+}
+
+.navText{
+    @apply flex text-white gap-8 items-center
+}
+
+.navText a:hover{
+    @apply text-[#cc005f]
+}
+
+.navText button{
+    @apply w-[7rem] border border-[#c2c2c2] py-[4px]
+}
+
+.navText button:hover{
+    @apply border-[#cc005f] text-[#cc005f]
+}
