@@ -1,11 +1,10 @@
 .parentWrapper{
     border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    @apply w-screen h-screen bg-[#212428] py-[9rem] text-white
+    @apply w-screen h-[160vh] bg-[#212428] text-white py-[5rem]
 }
 
 .heading{
-    @apply text-center leading-7
+    @apply text-center w-[30vw] h-[10vh] m-auto mt-[3rem]
 }
 
 .heading h1{
@@ -13,10 +12,41 @@
 }
 
 .heading p{
-    @apply text-5xl font-[600]
+    @apply text-5xl font-[600] overflow-hidden
 }
 
 .contactsection{
-    @apply w-screen flex justify-between
+    @apply w-[90vw] h-[120vh] flex justify-between m-auto place-items-center px-10
+}
+
+.sideFooter{
+    border-radius: 15px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    background: transparent;
+    @apply w-[30vw] h-[85vh] p-[2rem] flex flex-col justify-between
+}
+
+.image{
+    @apply w-[26vw] h-[34vh] overflow-hidden rounded-xl
+}
+
+.sideFooter h1{
+    @apply text-4xl font-[600] overflow-hidden
+}
+
+.sideFooter p{
+    @apply text-[#c2c2c2] font-[500] text-[1.5rem]
+}
+
+.contact{
+    border-radius: 15px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    background: transparent;
+    @apply w-[50vw] h-[100vh]
+}
+
+.eachIcon{
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    @apply w-[3.5rem] p-[0.5rem] rounded-lg
 }
 

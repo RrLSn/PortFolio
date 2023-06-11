@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import styles from '../styles/Intro.module.css'
-import Socialmedia from './Socialmedia'
 import Link from 'next/link'
+import Footer from './Footer'
+import Socialmedia from './Socialmedia'
 
 const Intro = () => {
 

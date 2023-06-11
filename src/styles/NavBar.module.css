@@ -1,5 +1,6 @@
 .wrapper{
-    @apply w-screen h-[6rem] border-b-2 border-[#cc005f] backdrop-blur-sm fixed flex justify-between items-center px-10
+    backdrop-filter: blur(10px);
+    @apply w-screen h-[6rem] border-b-2 border-[#cc005f] fixed flex justify-between items-center px-10
 }
 
 .navText{
