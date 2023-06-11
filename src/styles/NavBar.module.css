@@ -6,7 +6,11 @@
     @apply flex text-white gap-8 items-center
 }
 
-.navText a:hover{
+.navText a{
+    @apply text-[#c2c2c2]
+}
+
+.navText a:active{
     @apply text-[#cc005f]
 }
 

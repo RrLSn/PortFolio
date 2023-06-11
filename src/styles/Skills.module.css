@@ -1,9 +1,39 @@
-.skills{
-    @apply flex flex-wrap lg:w-[25rem] w-[20rem] gap-x-7 gap-y-5 justify-evenly py-[2rem] items-center m-auto
+.wrapper{
+    @apply w-[100vw] bg-[#212428] h-screen pt-[8rem]
 }
 
-.wrapper{
-    @apply w-[100vw] pt-[2rem]
+.heading{
+    @apply w-screen text-center
+}
+
+.heading h1{
+    @apply text-5xl text-[#cc005f] font-[600] mb-4 overflow-hidden
+}
+
+.heading p{
+    @apply w-[40rem] m-auto leading-6 text-[#c2c2c2]
+}
+
+.skills{
+    @apply w-[50vw] m-auto mt-20 flex flex-wrap items-center justify-center gap-x-10 gap-y-5 py-4
+}
+
+.Skill{
+    width: 15rem;
+    height: 7rem;
+    border-radius: 15px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;;
+    background: transparent;
+    @apply flex items-center justify-center overflow-hidden
+}
+
+/* .Skill:hover{
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px #cc005f;
+    background-color: #a19e9e;
+} */
+
+/* .skills{
+    @apply flex flex-wrap lg:w-[25rem] w-[20rem] gap-x-7 gap-y-5 justify-evenly py-[2rem] items-center m-auto
 }
 
 .span{
@@ -16,4 +46,4 @@
 
 .span div p{
     @apply mx-2 text-center
-}
+} */

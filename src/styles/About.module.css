@@ -1,14 +1,14 @@
-.container{
+/* .container{
     background-image: linear-gradient(to right,#343d68,rgb(192, 138, 192), rgb(207, 140, 140));
     @apply w-[100vw] h-[max-content]  lg:py-[2rem] py-[1.5rem]
 }
 
 .section{
     @apply lg:flex py-[6rem] px-[3rem] justify-between
-}
+} */
 
-.button{
-    /* display: inline-block;
+/* .button{
+    display: inline-block;
     position: initial;
     opacity: 0;
     top: 0;
@@ -16,9 +16,9 @@
     transition-property: all;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    transition-timing-function: linear; */
+    transition-timing-function: linear;
     @apply w-[6rem] bg-red-500 text-white rounded-lg active:bg-red-900 py-[0.3rem] px-[1rem]
-}
+} */
 
 /* @keyframes button {
     0% {opacity: 0; transform: rotateY(180deg); top: -50px;}
@@ -38,7 +38,7 @@
     100% {top: 0;}
 } */
 
-.desc{
+/* .desc{
     @apply lg:mb-0 mb-8
 }
 
@@ -48,9 +48,33 @@
 
 .desc p{
     @apply lg:w-[30rem] w-[19rem] my-[1.5rem] font-[400] text-center
-}
+} */
 
 /* .menu{
     
     @apply w-[15rem] right-full m-0 flex flex-col lg:hidden absolute border-r border-b items-center gap-5 py-16 opacity-100 bg-transparent
 } */
+
+.container{
+    @apply mt-[8rem] px-[10rem] w-[100vw] h-[80vh] 
+}
+
+.info{
+    @apply flex flex-col w-[50vw] h-[100%] gap-5 pt-28
+}
+
+.info h2{
+    @apply text-3xl overflow-hidden text-[#c2c2c2]
+}
+
+.info h1{
+    @apply text-7xl overflow-hidden text-white font-[700] leading-snug
+}
+
+.info h1 b{
+    @apply text-[#cc005f]
+}
+
+.info p{
+    @apply font-[400] w-[40rem] leading-7 text-white
+}

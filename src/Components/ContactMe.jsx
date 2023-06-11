@@ -6,22 +6,15 @@ import Footer from './Footer'
 const ContactMe = () => {
   return (
     <main className={styles.parentWrapper} id='contact'>
-      <h1>Contact me</h1>
-      <div className={styles.main}>
-          <Image src={"/Svg/contact.svg"} width={400} height={400} className={styles.contact} />
-
-          <div className={styles.msgWrapper}>
-            <input type="email" placeholder='Enter email address' />
-            
-            <textarea name="" id="" placeholder='Enter message...'></textarea>
-
-            <button>Send Message
-            <Image src={"/Svg/sendicon.svg"} width={17} height={17} />
-            </button>
-          </div>
+      <div className={styles.heading}>
+        <h1>CONTACT ME</h1>
+        <p>Get in touch</p>
       </div>
 
-      <Footer />
+      <span className={styles.contactsection}>
+          <div></div>
+          <div></div>
+        </span>
     </main>
   )
 }

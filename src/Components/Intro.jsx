@@ -4,6 +4,29 @@ import Socialmedia from './Socialmedia'
 import Link from 'next/link'
 
 const Intro = () => {
+
+  const iconLinks = [
+    {
+      src: '/Svg/linkedin.svg',
+      link: 'https://www.linkedin.com/in/sodiq-afolabi-b91555270/'
+    },
+    {
+      src: '/Svg/whatsapp.svg',
+      link: 'https://wa.me/+2349039757928?text=urlencodedtext'
+    },
+    {
+      src: '/Svg/gmail.svg',
+      link: ''
+    },
+    {
+      src: '/Svg/twitter.svg',
+      link: 'https://twitter.com/Afolabi_Sq'
+    },
+    {
+      src: '/Svg/github.svg',
+      link: 'https://github.com/RrLSn?tab=repositories'
+    },
+  ]
   return (
     <div className={styles.mainWrapper}>
         <div className={styles.introText}>
@@ -15,11 +38,11 @@ const Intro = () => {
 
         <div className={styles.introIcon}>
             <div className={styles.icons}>
-              <Socialmedia socialIcon='/Svg/linkedin.svg' link="https://www.linkedin.com/in/sodiq-afolabi-b91555270/" />
-              <Socialmedia socialIcon="/Svg/whatsapp.svg" link="" />
-              <Socialmedia socialIcon="/Svg/gmail.svg" link="" />
-              <Socialmedia socialIcon="/Svg/twitter.svg" link="https://twitter.com/Afolabi_Sq" />
-              <Socialmedia socialIcon="/Svg/github.svg" link="https://github.com/RrLSn?tab=repositories" />
+              {iconLinks.map((iconLink,index) => {
+                return(
+                  <Socialmedia socialIcon={iconLink.src} link={iconLink.link} key={index} />
+                )
+              })}
             </div>
         </div>
     </div>

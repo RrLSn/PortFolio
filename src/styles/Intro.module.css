@@ -43,18 +43,18 @@
 }
 
 .icons{
-    @apply flex flex-col w-[20px] h-[40rem] gap-6 mt-[14rem]
+    @apply flex flex-col w-[20px] h-[40rem] gap-6 mt-[20rem]
 }
 
 .icons::before{
     content: '';
     display: block;
-    height: 30%;
+    height: 27%;
     width: 1px;
     background-color: #c2c2c2;
     position: absolute;
     right: 27px;
-    top: 29rem;
+    top: 35rem;
 }
 
 .social{
