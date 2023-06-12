@@ -42,11 +42,35 @@
     border-radius: 15px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     background: transparent;
-    @apply w-[50vw] h-[100vh]
+    @apply w-[50vw] h-[100vh] flex flex-col py-[5rem] text-[#c2c2c2] px-[3rem] justify-between
 }
 
 .eachIcon{
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     @apply w-[3.5rem] p-[0.5rem] rounded-lg
+}
+
+.contact div input{
+    box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    @apply w-[100%] h-[4rem] mt-2 focus:outline-none px-[1.5rem] py-[0.5rem] bg-[#191b1e] focus:border-2 focus:border-[#cc005f] rounded-md
+}
+
+.contact div textarea{
+    box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    @apply h-[15rem] w-[100%] focus:outline-none px-[1.5rem] py-[1rem] bg-[#191b1e] resize-none mt-2 focus:border-2 focus:border-[#cc005f] rounded-md
+}
+
+.contact div p{
+    @apply text-[1.2rem] font-[500]
+}
+
+.contact button{
+    border-radius: 15px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    @apply w-[100%] h-[6rem] bg-transparent rounded-md text-[#cc005f] text-[1.2rem] font-[500]
+}
+
+.contact span{
+    @apply w-[100%] h-[3rem] bg-[#cc005f] rounded-md opacity-[0.3] text-center py-[0.5rem] mt-4
 }
 

@@ -58,10 +58,24 @@ const ContactMe = () => {
           </div>
           
           <div className={styles.contact}>
-            {/* <span>
-              <input type="text" />
-              <input type="text" />
-            </span> */}
+            <div>
+              <p>NAME:</p>
+              <input type="text" required />
+            </div>
+
+            <div>
+              <p>Email</p>
+              <input type="email" required />
+            </div>
+
+            <div>
+              <p>YOUR MESSAGE:</p>
+              <textarea type="text" required />
+            </div>
+
+            <button type="submit">SEND MESSAGE</button>
+            
+            {/* <span>ggg</span> */}
           </div>
         </span>
     </main>

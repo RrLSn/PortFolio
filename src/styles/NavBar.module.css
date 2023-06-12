@@ -1,10 +1,18 @@
 .wrapper{
     backdrop-filter: blur(10px);
-    @apply w-screen h-[6rem] border-b-2 border-[#cc005f] fixed flex justify-between items-center px-10
+    @apply w-screen lg:h-[6rem] h-[5rem] border-b-2 border-[#cc005f] fixed flex justify-between items-center px-10
+}
+
+.menu{
+    @apply lg:hidden flex w-[8vw] h-[7.5vh] flex-col justify-between
+}
+
+.menu p{
+    @apply w-[100%] h-[3px] bg-[#cc005f]
 }
 
 .navText{
-    @apply flex text-white gap-8 items-center
+    @apply lg:flex hidden text-white gap-8 items-center
 }
 
 .navText a{
@@ -15,8 +23,12 @@
     @apply text-[#cc005f]
 }
 
+.navText a:hover{
+    @apply text-[#cc005f]
+}
+
 .navText button{
-    @apply w-[7rem] border border-[#c2c2c2] py-[4px]
+    @apply w-[7rem] border-2 border-[#c2c2c2] py-[4px]
 }
 
 .navText button:hover{

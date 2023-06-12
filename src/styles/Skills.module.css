@@ -1,5 +1,6 @@
 .wrapper{
-    @apply w-[100vw] bg-[#212428] h-screen pt-[8rem]
+    @apply w-[100vw] h-[max-content] bg-[#212428] lg:py-[8rem]
+    py-[5rem]
 }
 
 .heading{
@@ -7,15 +8,15 @@
 }
 
 .heading h1{
-    @apply text-5xl text-[#cc005f] font-[600] mb-4 overflow-hidden
+    @apply lg:text-5xl text-3xl text-[#cc005f] font-[600] mb-4 overflow-hidden
 }
 
 .heading p{
-    @apply w-[40rem] m-auto leading-6 text-[#c2c2c2]
+    @apply lg:w-[40rem] w-[25rem] m-auto leading-6 text-[#c2c2c2]
 }
 
 .skills{
-    @apply w-[50vw] m-auto mt-20 flex flex-wrap items-center justify-center gap-x-10 gap-y-5 py-4
+    @apply lg:w-[50vw] w-[70vw] m-auto mt-20 lg:flex flex-wrap items-center justify-center gap-x-10 gap-y-5 py-4
 }
 
 .Skill{
@@ -24,7 +25,7 @@
     border-radius: 15px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     background: transparent;
-    @apply flex items-center justify-center overflow-hidden
+    @apply flex items-center m-auto lg:mb-0 mb-10 justify-center overflow-hidden
 }
 
 /* .Skill:hover{

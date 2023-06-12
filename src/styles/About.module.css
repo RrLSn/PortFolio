@@ -56,19 +56,19 @@
 } */
 
 .container{
-    @apply mt-[8rem] px-[10rem] w-[100vw] h-[80vh] 
+    @apply mt-[8rem] lg:px-[10rem] px-[2rem] pb-[2.5rem] w-[100vw] h-[max-content]
 }
 
 .info{
-    @apply flex flex-col w-[50vw] h-[100%] gap-5 pt-28
+    @apply lg:flex flex-col lg:w-[50vw] h-[100%] gap-5 pt-28
 }
 
 .info h2{
-    @apply text-3xl overflow-hidden text-[#c2c2c2]
+    @apply lg:text-3xl text-[1rem] overflow-hidden text-[#c2c2c2]
 }
 
 .info h1{
-    @apply text-7xl overflow-hidden text-white font-[700] leading-snug
+    @apply lg:text-7xl text-5xl overflow-hidden text-white font-[700] leading-snug
 }
 
 .info h1 b{
@@ -76,5 +76,5 @@
 }
 
 .info p{
-    @apply font-[400] w-[40rem] leading-7 text-white
+    @apply font-[400] lg:w-[40rem] leading-7 text-white
 }

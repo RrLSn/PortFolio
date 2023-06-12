@@ -1,17 +1,39 @@
 .wrapper{
-    @apply w-[100%] h-[max-content] bg-[#343D68] py-[2rem] 
+    border-top: 1px solid black;
+    @apply w-screen h-[max-content] bg-[#212428] py-[5rem] text-[#c2c2c2] lg:px-[5rem] px-[1.5rem]
 }
 
 .heading{
-    @apply flex flex-col items-center text-white mb-[1.5rem]
+    @apply flex flex-col items-center mb-[3.5rem]
+}
+
+.heading h1{
+    @apply flex text-4xl gap-2 font-[600] mb-2 text-center
+}
+
+.wrapper section {
+    @apply w-[100%] h-[max-content] flex justify-center m-auto flex-wrap gap-y-20 gap-x-16 py-[2rem]
 }
 
 .eachProject{
-    background-image: linear-gradient(to right,#1edfd1,#17a5c9,#0e5dbf);
-    @apply text-white w-[20rem] h-[23rem] p-[0.2rem] lg:mt-0 mt-5 m-auto
+    border-radius: 15px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    @apply lg:w-[25vw] w-[90%] lg:h-[53vh] h-[80vh] bg-transparent rounded-md p-[2rem] flex flex-col justify-between
 }
 
-.button{
+.eachProject p{
+    @apply text-[#cc005f] font-[500] text-[1.2rem] my-4 
+}
+
+.eachProject h1{
+    @apply font-[700] text-3xl text-[#c4cfde] cursor-pointer
+}
+
+.eachProject h1:hover{
+    @apply text-[#cc005f]
+}
+
+/* .button{
     @apply flex border-2 py-[0.3rem] items-center gap-2 px-[1rem] active:bg-slate-600
 }
 
@@ -21,4 +43,4 @@
 
 .appname{
     @apply font-[500] mt-3
-}
+} */
