@@ -7,27 +7,27 @@
     background-size: 100% 100%;
     background-color: #151515;
     background-blend-mode: darken;
-    @apply flex pr-[1.5rem]
+    @apply lg:flex px-[1.5rem] pt-[2rem] 
 }
 
 .introText{
-    @apply flex flex-col w-[96vw] h-screen justify-center items-center text-white text-center gap-6
+    @apply flex flex-col lg:w-[96vw] w-[100%] lg:h-[100%] h-[70vh] items-center text-white gap-6 justify-center
 }
 
 .introText p{
-    @apply text-[#cc005f] text-4xl overflow-hidden font-[500]
+    @apply text-[#cc005f] lg:text-4xl font-[500] overflow-hidden
 }
 
 .introText h1{
-    @apply text-7xl font-[700] overflow-hidden
+    @apply lg:text-7xl text-3xl font-[700] overflow-hidden
 }
 
 .introText h4{
-    @apply text-3xl overflow-hidden text-[#c2c2c2]
+    @apply lg:text-3xl text-[#c2c2c2] overflow-hidden
 }
 
 .introText button{
-    @apply w-[10rem] py-[12px] font-[500] border-2 border-[#c2c2c2]
+    @apply lg:w-[10rem] w-[8rem] lg:py-[12px] font-[500] border-2 border-[#c2c2c2] py-[6px]
 }
 
 .introText button:hover{
@@ -39,22 +39,16 @@
 }
 
 .introIcon{
-    @apply w-[3vw] h-screen flex flex-col justify-center items-end
+    @apply lg:w-[3vw] w-[100%] h-[max-content] flex flex-col justify-center lg:items-end lg:mt-0 mt-[3.5rem]
 }
 
 .icons{
-    @apply flex flex-col w-[20px] h-[40rem] gap-6 mt-[20rem]
+    @apply flex lg:flex-col lg:w-[20px] w-screen lg:h-[max-content] gap-6 lg:pt-[18rem]
 }
 
 .icons::before{
     content: '';
-    display: block;
-    height: 27%;
-    width: 1px;
-    background-color: #c2c2c2;
-    position: absolute;
-    right: 27px;
-    top: 35rem;
+    @apply lg:block hidden h-[27%] w-[1px] bg-[#c2c2c2] absolute lg:right-[27px] lg:top-[35rem]
 }
 
 .social{
@@ -67,6 +61,7 @@
     animation-duration: 4s;
     animation-fill-mode: forwards;
     transition-timing-function: linear;
+    @apply lg:w-[2rem] w-[1rem]
 }
 
 .social:hover{

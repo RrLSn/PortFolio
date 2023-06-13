@@ -1,10 +1,10 @@
 .parentWrapper{
     border-top: 1px solid black;
-    @apply w-screen h-[160vh] bg-[#212428] text-white py-[5rem]
+    @apply w-screen h-[max-content] bg-[#212428] text-white py-[5rem] px-[2rem]
 }
 
 .heading{
-    @apply text-center w-[30vw] h-[10vh] m-auto mt-[3rem]
+    @apply text-center w-[30vw] h-[15vh] m-auto mt-[3rem]
 }
 
 .heading h1{
@@ -12,42 +12,42 @@
 }
 
 .heading p{
-    @apply text-5xl font-[600] overflow-hidden
+    @apply lg:text-5xl font-[600] overflow-hidden
 }
 
 .contactsection{
-    @apply w-[90vw] h-[120vh] flex justify-between m-auto place-items-center px-10
+    @apply w-[90vw] h-[max-content] lg:flex justify-between m-auto px-10 py-[2rem]
 }
 
 .sideFooter{
     border-radius: 15px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     background: transparent;
-    @apply w-[30vw] h-[85vh] p-[2rem] flex flex-col justify-between
+    @apply lg:w-[30vw] w-[100%] lg:h-[85vh] h-[max-content] p-[2rem] flex flex-col justify-between
 }
 
 .image{
-    @apply w-[26vw] h-[34vh] overflow-hidden rounded-xl
+    @apply lg:w-[26vw] w-[100%] lg:h-[34vh] h-[38vh] overflow-hidden rounded-xl
 }
 
 .sideFooter h1{
-    @apply text-4xl font-[600] overflow-hidden
+    @apply lg:text-4xl text-2xl font-[600] overflow-hidden
 }
 
 .sideFooter p{
-    @apply text-[#c2c2c2] font-[500] text-[1.5rem]
+    @apply text-[#c2c2c2] font-[500] lg:text-[1.5rem]
 }
 
 .contact{
     border-radius: 15px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     background: transparent;
-    @apply w-[50vw] h-[100vh] flex flex-col py-[5rem] text-[#c2c2c2] px-[3rem] justify-between
+    @apply lg:w-[50vw] w-[100%] h-[max-content] flex flex-col lg:py-[5rem] py-[2.5rem] text-[#c2c2c2] px-[3rem] justify-between lg:mt-0 mt-[2.5rem]
 }
 
 .eachIcon{
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    @apply w-[3.5rem] p-[0.5rem] rounded-lg
+    @apply w-[max-content] p-[0.5rem] rounded-lg
 }
 
 .contact div input{
@@ -67,7 +67,11 @@
 .contact button{
     border-radius: 15px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    @apply w-[100%] h-[6rem] bg-transparent rounded-md text-[#cc005f] text-[1.2rem] font-[500]
+    @apply w-[100%] lg:h-[6rem] h-[4rem] bg-transparent rounded-md text-[#cc005f] text-[1.2rem] font-[500]
+}
+
+.contact button:active{
+    @apply border-2 border-[#cc005f]
 }
 
 .contact span{

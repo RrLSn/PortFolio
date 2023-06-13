@@ -11,20 +11,9 @@ const LearnMore = (props) => {
         <Image src={src} width={400} height={100} className='rounded-md h-[100%]' />
       </div>
       <p>{name}</p>
-      <h1>{desc}</h1>
+      <h1>{desc} <span></span></h1>
     </div>
   )
 }
 
 export default LearnMore
-
-
-{/* <div className={styles.projectWrapper}>
-      <Image src={pics} width={width} height={height} />
-      <p className={styles.appname}>{name}</p>
-      <div className='p-[0.5rem] text-center'>
-        <p>{desc}</p>
-      </div>
-      
-      <a href={projectUrl} target='_blank'><button className={styles.button}>View <img src="/Svg/rightarrow.svg" alt="" /></button></a>
-      </div> */}

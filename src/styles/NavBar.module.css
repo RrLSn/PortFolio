@@ -22,10 +22,10 @@
 .navText a:active{
     @apply text-[#cc005f]
 }
-
+/* 
 .navText a:hover{
     @apply text-[#cc005f]
-}
+} */
 
 .navText button{
     @apply w-[7rem] border-2 border-[#c2c2c2] py-[4px]
