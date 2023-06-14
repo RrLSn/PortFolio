@@ -1,6 +1,6 @@
 .wrapper{
     border-top: 1px solid black;
-    @apply w-screen h-[max-content] bg-[#212428] lg:py-[8rem] py-[5rem] text-[#c2c2c2] lg:px-[5rem] px-[1.5rem]
+    @apply w-screen h-[max-content] bg-[#212428] py-[8rem] text-[#c2c2c2] lg:px-[5rem] px-[1.5rem]
 }
 
 .heading{
@@ -18,11 +18,11 @@
 .eachProject{
     border-radius: 15px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    @apply lg:w-[25vw] w-[90%] lg:h-[53vh] h-[90vh] bg-transparent rounded-md lg:p-[2rem] p-[1rem] flex flex-col justify-between
+    @apply lg:w-[25vw] w-[90%] lg:h-[53vh] h-[max-content] bg-transparent rounded-md lg:p-[2rem] p-[1rem] flex flex-col justify-between
 }
 
 .eachProject p{
-    @apply text-[#cc005f] font-[500] lg:text-[1.2rem] lg:my-4 
+    @apply text-[#cc005f] font-[500] lg:text-[1.2rem] my-4
 }
 
 .eachProject h1{
@@ -32,15 +32,3 @@
 .eachProject h1:hover{
     @apply text-[#cc005f] underline
 }
-
-/* .button{
-    @apply flex border-2 py-[0.3rem] items-center gap-2 px-[1rem] active:bg-slate-600
-}
-
-.projectWrapper{
-    @apply w-[100%] h-[100%] bg-[#262c4c] flex flex-col items-center
-}
-
-.appname{
-    @apply font-[500] mt-3
-} */

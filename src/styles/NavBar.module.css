@@ -4,7 +4,7 @@
 }
 
 .menu{
-    @apply lg:hidden flex w-[8vw] h-[7.5vh] flex-col justify-between
+    @apply lg:hidden flex w-[8vw] h-[6vh] flex-col justify-between
 }
 
 .menu p{

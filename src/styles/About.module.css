@@ -56,11 +56,11 @@
 } */
 
 .container{
-    @apply mt-[8rem] lg:px-[10rem] px-[2rem] pb-[2.5rem] w-[100vw] h-[max-content]
+    @apply mt-[10rem] lg:px-[10rem] px-[2rem] pb-[2.5rem] w-[100vw] lg:h-[80vh] h-[max-content] lg:flex
 }
 
 .info{
-    @apply lg:flex flex-col lg:w-[50vw] h-[100%] gap-5 pt-28
+    @apply lg:flex flex-col lg:w-[50vw] h-[max-content] gap-5 pt-28
 }
 
 .info h2{

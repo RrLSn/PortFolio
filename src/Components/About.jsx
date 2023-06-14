@@ -13,7 +13,7 @@ const About = () => {
 
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam, reprehenderit,</p>
        </div>
-       <div></div>
+       {/* <div className='w-[20rem] h-[30rem] border'></div> */}
     </main>
   )
 }

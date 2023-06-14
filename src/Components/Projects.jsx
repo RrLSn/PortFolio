@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import LearnMore from './LearnMore'
 import styles from '../styles/Projects.module.css'
 import Image from 'next/image'
 
-const Projects = () => {
+const Projects = ({propValue,togglePop}) => {
   const projectDatas = [
     {
       ImageUrl: '/Media/TodoList.png',
@@ -47,7 +47,7 @@ const Projects = () => {
       <section>
         {projectDatas.map((projectData,index) => {
           return (
-            <LearnMore key={index} src={projectData.ImageUrl} name={projectData.projectName} desc={projectData.projectDesc} />
+            <LearnMore key={index} src={projectData.ImageUrl} name={projectData.projectName} desc={projectData.projectDesc} propValue={propValue} togglePop={togglePop} />
           )
         })}
       </section>

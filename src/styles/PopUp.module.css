@@ -1,0 +1,52 @@
+.wrapper{
+    @apply w-screen h-screen bg-[#212428] flex justify-center items-center relative
+}
+
+.wrapper nav{
+    border-radius: 15px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    @apply w-[90%] h-[90%] px-[2rem] py-[3rem] flex flex-col items-end
+}
+
+.close{
+    border-radius: 10px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    @apply w-[3rem] h-[2rem] py-[0.5rem] px-[0.4rem] cursor-pointer
+}
+
+.close p{
+    @apply w-[100%] h-[4px] bg-[#c2c2c2]
+}
+
+.close p:nth-child(1){
+    @apply rotate-[135deg]
+}
+
+.close p:nth-child(2){
+    @apply rotate-[45deg]
+}
+
+.projectInfo{
+    @apply w-[100%] h-[85%] mt-[3rem] flex justify-between p-[1.5rem]
+}
+
+.projectInfo div:nth-child(1){
+    @apply w-[43%] h-[90%] rounded-md
+}
+
+.projectInfo div:nth-child(2){
+    @apply w-[50%] h-[100%] flex flex-col justify-between px-[2rem] text-[#c2c2c2] py-[4rem]
+}
+
+.projectInfo div:nth-child(2) h1{
+    @apply text-5xl text-[#c4cfde] font-[600] overflow-hidden
+}
+
+.projectInfo div:nth-child(2) p{
+    @apply text-2xl font-[500]
+}
+
+.projectInfo div:nth-child(2) button{
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    @apply w-[13rem] h-[max-content] text-[#cc005f] py-[1.5rem] rounded-md font-[500] 
+}
