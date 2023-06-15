@@ -6,6 +6,7 @@ import Projects from '@/Components/Projects'
 import Skills from '@/Components/Skills'
 import ContactMe from '@/Components/ContactMe'
 import PopUp from '@/Components/PopUp'
+import projectDatas from '@/data'
 
 const index = () => {
 

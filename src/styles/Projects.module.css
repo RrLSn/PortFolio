@@ -1,6 +1,6 @@
 .wrapper{
     border-top: 1px solid black;
-    @apply w-screen h-[max-content] bg-[#212428] py-[8rem] text-[#c2c2c2] lg:px-[5rem] px-[1.5rem]
+    @apply w-screen h-[max-content] py-[8rem] text-[#c2c2c2] lg:px-[5rem] px-[1.5rem]
 }
 
 .heading{

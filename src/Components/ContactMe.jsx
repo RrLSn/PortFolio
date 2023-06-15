@@ -36,7 +36,7 @@ const ContactMe = () => {
       <span className={styles.contactsection}>
           <div className={styles.sideFooter}>
             <div className={styles.image}>
-              <Image src={'/Media/contact.png'} width={400} height={100} />
+              <Image src={'/Media/contact.png'} width={400} height={100} layout='contain' />
             </div>
 
             <h1>AFOLABI SODIQ</h1>

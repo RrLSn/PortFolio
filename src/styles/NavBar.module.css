@@ -1,14 +1,34 @@
 .wrapper{
     backdrop-filter: blur(10px);
-    @apply w-screen lg:h-[6rem] h-[5rem] border-b-2 border-[#cc005f] fixed flex justify-between items-center px-10
+    @apply w-full lg:h-[6rem] h-[5rem] border-b-2 border-[#cc005f] fixed flex justify-between items-center px-4 
 }
 
 .menu{
-    @apply lg:hidden flex w-[8vw] h-[6vh] flex-col justify-between
+    @apply lg:hidden flex flex-col space-y-2 top-0 left-0 z-10
+}
+
+.activeMenu{
+    @apply gap-0 space-y-0
+}
+
+.activeMenu p{
+    @apply absolute right-4
+}
+
+.activeMenu p:nth-child(1){
+    @apply rotate-[135deg]
+}
+
+.activeMenu p:nth-child(2){
+    @apply rotate-[45deg]
+}
+
+.activeMenu p:nth-child(3){
+    @apply hidden h-0
 }
 
 .menu p{
-    @apply w-[100%] h-[3px] bg-[#cc005f]
+    @apply w-8 h-[3px] bg-[#cc005f] rounded-full duration-75
 }
 
 .navText{
@@ -33,4 +53,12 @@
 
 .navText button:hover{
     @apply border-[#cc005f] text-[#cc005f]
+}
+
+.sideBar{
+    @apply lg:hidden w-full h-screen -z-10 blur-[10px] block opacity-40 
+}
+
+.activeSideBar{
+    @apply hidden opacity-0
 }

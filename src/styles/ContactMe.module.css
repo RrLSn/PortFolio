@@ -1,6 +1,6 @@
 .parentWrapper{
     border-top: 1px solid black;
-    @apply w-screen h-[max-content] bg-[#212428] text-white py-[5rem] px-[2rem]
+    @apply w-screen h-[max-content] text-white py-[5rem] px-[2rem]
 }
 
 .heading{
@@ -27,7 +27,7 @@
 }
 
 .image{
-    @apply lg:w-[26vw] w-[100%] lg:h-[34vh] h-[38vh] overflow-hidden rounded-xl
+    @apply lg:w-[26vw] w-[100%] lg:h-[34vh] h-[30vh] overflow-hidden rounded-xl flex items-center
 }
 
 .sideFooter h1{
@@ -42,7 +42,7 @@
     border-radius: 15px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     background: transparent;
-    @apply lg:w-[50vw] w-[100%] h-[max-content] flex flex-col lg:py-[5rem] py-[2.5rem] text-[#c2c2c2] px-[3rem] justify-between lg:mt-0 mt-[2.5rem]
+    @apply lg:w-[50vw] w-[100%] h-[max-content] flex flex-col lg:py-[5rem] py-[2.5rem] text-[#c2c2c2] lg:px-[3rem] px-[1.5rem] justify-between lg:mt-0 mt-[2.5rem]
 }
 
 .eachIcon{
@@ -52,12 +52,12 @@
 
 .contact div input{
     box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
-    @apply w-[100%] h-[4rem] mt-2 focus:outline-none px-[1.5rem] py-[0.5rem] bg-[#191b1e] focus:border-2 focus:border-[#cc005f] rounded-md
+    @apply w-[100%] lg:h-[4rem] h-[2.5rem] my-5 focus:outline-none px-[1.5rem] py-[0.5rem] bg-[#191b1e] focus:border-2 focus:border-[#cc005f] rounded-md
 }
 
 .contact div textarea{
     box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
-    @apply h-[15rem] w-[100%] focus:outline-none px-[1.5rem] py-[1rem] bg-[#191b1e] resize-none mt-2 focus:border-2 focus:border-[#cc005f] rounded-md
+    @apply h-[15rem] w-[100%] focus:outline-none px-[1.5rem] py-[1rem] bg-[#191b1e] resize-none my-5 focus:border-2 focus:border-[#cc005f] rounded-md
 }
 
 .contact div p{

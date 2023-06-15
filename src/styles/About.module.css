@@ -56,7 +56,10 @@
 } */
 
 .container{
-    @apply mt-[10rem] lg:px-[10rem] px-[2rem] pb-[2.5rem] w-[100vw] lg:h-[80vh] h-[max-content] lg:flex
+    background-image: url("/Media/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    @apply pt-[10rem] lg:px-[10rem] px-[2rem] pb-[2.5rem] w-[100vw] lg:h-[100vh] h-[max-content] lg:flex
 }
 
 .info{
