@@ -1,10 +1,10 @@
 .wrapper{
     border-top: 1px solid black;
-    @apply w-screen h-[max-content] py-[8rem] text-[#c2c2c2] lg:px-[5rem] px-[1.5rem]
+    @apply max-w-[1200px] py-[8rem] text-[#c2c2c2] lg:px-[5rem] px-[1.5rem] m-auto justify-center
 }
 
 .heading{
-    @apply flex flex-col items-center mb-[3.5rem]
+    @apply flex flex-col items-center mb-[3.5rem] text-center
 }
 
 .heading h1{
@@ -12,13 +12,24 @@
 }
 
 .wrapper section {
-    @apply w-[100%] h-[max-content] flex justify-center m-auto flex-wrap gap-y-20 gap-x-16 py-[2rem]
+    @apply max-w-[100vw] h-[max-content] flex justify-center m-auto flex-wrap gap-[24px] py-[2rem] 
 }
 
 .eachProject{
     border-radius: 15px;
+    transition: all 0.4s ease-in-out;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    @apply lg:w-[25vw] w-[90%] lg:h-[53vh] h-[max-content] bg-transparent rounded-md lg:p-[2rem] p-[1rem] flex flex-col justify-between
+    z-index: 1;
+    @apply lg:w-[25vw] w-[90%] lg:h-[53vh] h-[max-content] bg-transparent rounded-md lg:p-[2rem] p-[1rem] justify-between cursor-pointer relative block overflow-hidden
+}
+
+.img{
+    transition: transform 0.4s ease-in-out;
+    @apply rounded-md h-[100%]
+}
+
+.eachProject:hover .img{
+    transform: scale(1.5);
 }
 
 .eachProject p{
@@ -26,7 +37,8 @@
 }
 
 .eachProject h1{
-    @apply font-[700] text-[1.4rem] text-[#c4cfde] cursor-pointer
+    transition: color 0.3s ease-out;
+    @apply font-[700] text-[1.4rem] text-[#c4cfde]
 }
 
 .eachProject h1:hover{

@@ -1,9 +1,11 @@
 .wrapper{
     backdrop-filter: blur(10px);
-    @apply w-full lg:h-[6rem] h-[5rem] border-b-2 border-[#cc005f] fixed flex justify-between items-center px-4 
+    z-index: 2;
+    @apply w-full lg:h-[6rem] h-[5rem] border-b-2 border-[#cc005f] fixed flex justify-between items-center px-4 lg:bg-transparent bg-[shadow-black]
 }
 
 .menu{
+    z-index: 3;
     @apply lg:hidden flex flex-col space-y-2 top-0 left-0 z-10
 }
 
@@ -36,16 +38,17 @@
 }
 
 .navText a{
+    transition: color 0.3s ease-out;
     @apply text-[#c2c2c2]
 }
 
 .navText a:active{
     @apply text-[#cc005f]
 }
-/* 
+
 .navText a:hover{
     @apply text-[#cc005f]
-} */
+}
 
 .navText button{
     @apply w-[7rem] border-2 border-[#c2c2c2] py-[4px]
@@ -56,9 +59,11 @@
 }
 
 .sideBar{
-    @apply lg:hidden w-full h-screen -z-10 blur-[10px] block opacity-40 
+    @apply hidden opacity-0
 }
 
 .activeSideBar{
-    @apply hidden opacity-0
+    background-color: #212428;
+    z-index: 2;
+    @apply lg:hidden h-[20rem] w-full top-0 left-0 shadow-black shadow-md backdrop-blur-[5px] rounded-br-2xl rounded-bl-2xl
 }

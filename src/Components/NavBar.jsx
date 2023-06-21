@@ -28,7 +28,7 @@ const NavBar = () => {
           </div>
           
       </nav>
-      <div className={`${styles.sideBar} ${toggle && styles.activeSideBar} bg-[#141518]`} onClick={() => setToggle(!toggle)}></div>
+      <div className={`${styles.activeSideBar} ${toggle && styles.sideBar} bg-transparent`} onClick={() => setToggle(!toggle)}></div>
     </div>
   )
 }

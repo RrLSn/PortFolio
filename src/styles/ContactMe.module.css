@@ -23,11 +23,19 @@
     border-radius: 15px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     background: transparent;
-    @apply lg:w-[30vw] w-[100%] lg:h-[85vh] h-[max-content] p-[2rem] flex flex-col justify-between
+    @apply lg:w-[30vw] w-[100%] lg:h-[85vh] h-[max-content] p-[2rem] flex flex-col justify-between cursor-pointer
 }
 
 .image{
-    @apply lg:w-[26vw] w-[100%] lg:h-[34vh] h-[30vh] overflow-hidden rounded-xl flex items-center
+    @apply min-w-[26vw] lg:h-[34vh] h-[30vh] overflow-hidden rounded-xl flex items-center
+}
+
+.img{
+    transition: transform 0.4s ease-in-out;
+}
+
+.image:hover .img{
+    transform: scale(1.5);
 }
 
 .sideFooter h1{

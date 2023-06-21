@@ -27,11 +27,12 @@
 }
 
 .introText button{
+    transition: color 0.3s ease-out;
     @apply lg:w-[10rem] w-[8rem] lg:py-[12px] font-[500] border-2 border-[#c2c2c2] py-[6px]
 }
 
 .introText button:hover{
-    @apply border-[#cc005f]
+    @apply border-[#cc005f] text-[#cc005f]
 }
 
 .introText button:active{
