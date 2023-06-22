@@ -5,7 +5,6 @@
 }
 
 .menu{
-    z-index: 3;
     @apply lg:hidden flex flex-col space-y-2 top-0 left-0 z-10
 }
 
@@ -30,7 +29,7 @@
 }
 
 .menu p{
-    @apply w-8 h-[3px] bg-[#cc005f] rounded-full duration-75
+    @apply w-8 h-[3px] bg-[#cc005f] rounded-full duration-300
 }
 
 .navText{
@@ -54,16 +53,105 @@
     @apply w-[7rem] border-2 border-[#c2c2c2] py-[4px]
 }
 
-.navText button:hover{
+.navText button:active{
     @apply border-[#cc005f] text-[#cc005f]
 }
 
-.sideBar{
+.sideNav{
     @apply hidden opacity-0
 }
 
-.activeSideBar{
-    background-color: #212428;
+.activesideNav{
+    background-color: transparent;
     z-index: 2;
-    @apply lg:hidden h-[20rem] w-full top-0 left-0 shadow-black shadow-md backdrop-blur-[5px] rounded-br-2xl rounded-bl-2xl
+    animation-name: sideBar;
+    transition-property: all;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-timing-function: ease-in-out;
+    @apply lg:hidden h-[100vh] w-[18rem] top-20 right-0 shadow-black shadow-md fixed backdrop-blur-[5px] 
+}
+
+.activesideNav nav{
+    
+    @apply w-full h-[25rem] flex flex-col justify-between items-center py-12
+}
+
+.activesideNav nav a{
+    
+    @apply text-[#cc005f] font-[600] border-b-2 border-b-[#cc005f]
+}
+
+.activesideNav nav a:nth-child(1){
+    animation: sideNavLinkA;
+    transition: all;
+    position: relative;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-timing-function: ease-in-out;
+}
+.activesideNav nav a:nth-child(2){
+    animation: sideNavLinkB;
+    transition: all;
+    position: relative;
+    animation-duration: 1.4s;
+    animation-fill-mode: forwards;
+    transition-timing-function: ease-in-out;
+}
+.activesideNav nav a:nth-child(3){
+    animation: sideNavLinkC;
+    transition: all;
+    position: relative;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    transition-timing-function: ease-in-out;
+}
+.activesideNav nav a:nth-child(4){
+    animation: sideNavLinkD;
+    transition: all;
+    position: relative;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition-timing-function: ease-in-out;
+}
+.activesideNav nav a:nth-child(5){
+    animation: sideNavLinkA;
+    transition: all;
+    position: relative;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-timing-function: ease-in-out;
+}
+
+.activesideNav nav a:nth-child(5){
+    @apply border-none
+}
+
+.activesideNav nav button{
+    @apply w-[7rem] border-2 border-[#cc005f] py-[4px]
+}
+
+@keyframes sideBar{
+    0% {opacity: 0; right: -250px;}
+    100% {opacity: 1.5; right: 0;}
+}
+
+@keyframes sideNavLinkA{
+    0% {opacity: 0; right: -100px;border-bottom: none;}
+    100%{opacity: 1; right: 0;}
+}
+
+@keyframes sideNavLinkB{
+    0% {opacity: 0; right: -100px;border-bottom: none;}
+    100%{opacity: 1; right: 0;}
+}
+
+@keyframes sideNavLinkC{
+    0% {opacity: 0; right: -100px;border-bottom: none;}
+    100%{opacity: 1; right: 0;}
+}
+
+@keyframes sideNavLinkD{
+    0% {opacity: 0; right: -100px;border-bottom: none;}
+    100%{opacity: 1; right: 0;}
 }

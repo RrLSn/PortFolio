@@ -16,7 +16,7 @@
 }
 
 .skills{
-    @apply lg:w-[50vw] min-w-[50vw] m-auto mt-20 lg:flex flex-wrap items-center justify-center gap-[24px] py-4
+    @apply lg:w-[50vw] min-w-[50vw] m-auto mt-20 lg:flex flex-wrap items-center justify-center gap-[24px] py-4 overflow-hidden
 }
 
 .Skill{

@@ -5,10 +5,6 @@ import Image from 'next/image'
 const NavBar = () => {
   
   const [toggle, setToggle] = useState(true)
-  // const activeToggle = () => {
-  //   setToggle(!toggle)
-  //   console.log(toggle)
-  // }
 
   return (
     <div>
@@ -24,11 +20,19 @@ const NavBar = () => {
             <a href="#skills">Skills</a>
             <a href="#project" className='flex gap-2'><Image src={'/Svg/settingsIcon.svg'} width={20} height={20} />Project</a>
             <a href="#contact">Contact Me</a>
-            <a href=''><button>Resume</button></a>
+            <a href='https://resume.io/r/PKaMzuXNP' target='_blank'><button>Resume</button></a>
           </div>
           
       </nav>
-      <div className={`${styles.activeSideBar} ${toggle && styles.sideBar} bg-transparent`} onClick={() => setToggle(!toggle)}></div>
+      <div className={`${styles.activesideNav} ${toggle && styles.sideNav} bg-transparent`} onClick={() => setToggle(!toggle)}>
+        <nav>
+          <a href="#About">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#project" className='flex gap-2'><Image src={'/Svg/settingsIcon.svg'} width={20} height={20} />Project</a>
+          <a href="#contact">Contact Me</a>
+          <a href='https://resume.io/r/PKaMzuXNP' target='_blank'><button>Resume</button></a>
+        </nav>
+      </div>
     </div>
   )
 }

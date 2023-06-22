@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import styles from '../styles/ContactMe.module.css'
 import Socialmedia from './Socialmedia'
+import ContactInputField from './ContactInputField'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const ContactMe = () => {
   const iconLinks = [
@@ -26,6 +29,11 @@ const ContactMe = () => {
       link: 'https://github.com/RrLSn?tab=repositories'
     },
   ]
+
+  useEffect(()=> {
+    AOS.init({duration: 2000})
+  },[])
+
   return (
     <main className={styles.parentWrapper} id='contact'>
       <div className={styles.heading}>
@@ -34,9 +42,9 @@ const ContactMe = () => {
       </div>
 
       <span className={styles.contactsection}>
-          <div className={styles.sideFooter}>
+          <div className={styles.sideFooter} data-aos='flip-left'>
             <div className={styles.image}>
-              <Image src={'/Media/contact.png'} width={400} height={100} layout='contain' className={styles.img} />
+              <Image src={'/Media/contact.png'} width={400} height={100} layout='contain' className={styles.img} data-aos='fade-down' />
             </div>
 
             <h1>AFOLABI SODIQ</h1>
@@ -57,26 +65,7 @@ const ContactMe = () => {
             </div>
           </div>
           
-          <div className={styles.contact}>
-            <div>
-              <p>NAME:</p>
-              <input type="text" required />
-            </div>
-
-            <div>
-              <p>Email</p>
-              <input type="email" required />
-            </div>
-
-            <div>
-              <p>YOUR MESSAGE:</p>
-              <textarea type="text" required />
-            </div>
-
-            <button type="submit">SEND MESSAGE</button>
-            
-            {/* <span>ggg</span> */}
-          </div>
+          <ContactInputField />
         </span>
     </main>
   )

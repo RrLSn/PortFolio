@@ -12,7 +12,7 @@
 }
 
 .wrapper section {
-    @apply max-w-[100vw] h-[max-content] flex justify-center m-auto flex-wrap gap-[24px] py-[2rem] 
+    @apply max-w-[100vw] h-[max-content] flex justify-center m-auto flex-wrap gap-[24px] py-[2rem] overflow-y-hidden
 }
 
 .eachProject{

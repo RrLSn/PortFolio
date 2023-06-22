@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Skill from './Skill'
-import Image from 'next/image'
 import styles from '../styles/Skills.module.css'
 
 const Skills = () => {
