@@ -25,5 +25,5 @@
     border-radius: 15px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     background: transparent;
-    @apply flex items-center m-auto lg:mb-0 mb-10 justify-center overflow-hidden
+    @apply flex items-center m-auto lg:mb-0 mb-10 justify-center overflow-hidden text-white
 }

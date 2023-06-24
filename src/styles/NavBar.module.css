@@ -4,6 +4,39 @@
     @apply w-full lg:h-[6rem] h-[5rem] border-b-2 border-[#cc005f] fixed flex justify-between items-center px-4 lg:bg-transparent bg-[shadow-black]
 }
 
+.logo{
+    font-family: monospace;
+    position: absolute;
+    background-color: #cc005f;
+    transform: translate(-50% -50%);
+    overflow-x: visible;
+    border-radius: 50%;
+    box-shadow: #cc005f inset;
+    animation: blob-animation 7s infinite linear;
+    
+    @apply lg:w-[3rem] w-[2rem] lg:h-[3rem] h-[2rem] flex justify-start items-center lg:text-3xl text-2xl font-[600] text-[#c2c2c2] relative left-4 pl-4 italic
+}
+
+.logo:hover{
+    box-shadow: 0 0 10px 2px #cc005f;
+    text-shadow: 0 0 5px #c2c2c2, 0 0 10px #c2c2c2, 0 0 20px #ff0000;
+}
+
+@keyframes blob-animation{
+    0%, 100% {
+        border-radius: 50%;
+      }
+      25% {
+        border-radius: 40% 60% 50% 50% / 40% 70% 55% 50%;
+      }
+      50% {
+        border-radius: 30% 70% 55% 45% / 80% 35% 55% 50%;
+      }
+      75% {
+        border-radius: 25% 85% 50% 50% / 90% 55% 45% 60%;
+      }
+}
+
 .menu{
     @apply lg:hidden flex flex-col space-y-2 top-0 left-0 z-10
 }
@@ -33,7 +66,7 @@
 }
 
 .navText{
-    @apply lg:flex hidden text-white gap-8 items-center
+    @apply lg:flex hidden text-white gap-8 items-center mr-4
 }
 
 .navText a{

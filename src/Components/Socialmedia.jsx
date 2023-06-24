@@ -7,7 +7,7 @@ const Socialmedia = (props) => {
     return (
       <div>
           <a href={link} target='_blank'>
-            <Image src={socialIcon} className={styles.social} width={100} height={100} />
+            <Image src={socialIcon} className={styles.social} width={100} height={100} alt='Social' />
           </a>
       </div>
     )

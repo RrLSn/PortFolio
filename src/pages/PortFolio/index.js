@@ -6,14 +6,18 @@ import Projects from '@/Components/Projects'
 import Skills from '@/Components/Skills'
 import ContactMe from '@/Components/ContactMe'
 import PopUp from '@/Components/PopUp'
-import projectDatas from '@/data'
+// import projectDatas from '@/data'
 
 const index = () => {
 
   const [showPopup, setShowPopup] = useState(false)
-  const togglePop = () => {
+  const [selectedDiv, setSelectedDiv] = useState(null)
+
+  const togglePop = (index) => {
+    setSelectedDiv(index)
+    console.log(selectedDiv)
     setShowPopup(true)
-    console.log(showPopup)
+    
   }
 
   const closePop = () => {
@@ -31,10 +35,9 @@ const index = () => {
           <main className={styles.main}>
             <About />
             <Skills />
-            <Projects propValue={showPopup} togglePop={togglePop} />
+            <Projects propValue={showPopup} togglePop={togglePop} selectedDiv={selectedDiv} />
             <ContactMe />
           </main>
-          
         </div>
       }
     </div>

@@ -46,6 +46,10 @@
     @apply text-[#c2c2c2] font-[500] lg:text-[1.5rem]
 }
 
+.sideFooter p a{
+    @apply text-[15px] ml-[5px]
+}
+
 .contact{
     border-radius: 15px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
