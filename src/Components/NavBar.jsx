@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <div>
       <nav className={styles.wrapper}>
-        <div className={styles.logo} data-aos='zoom-in'>Afolabi</div>
+        <div className={styles.logo} data-aos='zoom-in'>&lt;Afolabi/&gt;</div>
 
         <div className={`${styles.menu} ${!toggle && styles.activeMenu}`} onClick={()=>setToggle(!toggle)}>
             <p></p>
