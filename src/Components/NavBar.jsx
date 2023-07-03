@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'
 
 const NavBar = () => {
   useEffect(()=> {
-    AOS.init({duration: 2500})
+    AOS.init({duration: 1500})
   },[])
   const [toggle, setToggle] = useState(true)
 
@@ -23,7 +23,7 @@ const NavBar = () => {
           <div className={styles.navText}>
             <a href="#About" data-aos='zoom-in'>About</a>
             <a href="#skills" data-aos='zoom-in'>Skills</a>
-            <a href="#project" className='flex gap-2' data-aos='zoom-in'><Image src={'/Svg/settingsIcon.svg'} width={20} height={20} />Project</a>
+            <a href="#project" className='flex gap-2' data-aos='zoom-in'><Image src={'/Svg/settingsIcon.svg'} width={20} height={20} alt='icon' />Project</a>
             <a href="#contact" data-aos='zoom-in'>Contact Me</a>
             <a href='https://resume.io/r/PKaMzuXNP' target='_blank' data-aos='zoom-in'><button>Resume</button></a>
           </div>
@@ -33,7 +33,7 @@ const NavBar = () => {
         <nav>
           <a href="#About">About</a>
           <a href="#skills">Skills</a>
-          <a href="#project" className='flex gap-2'><Image src={'/Svg/settingsIcon.svg'} width={20} height={20} />Project</a>
+          <a href="#project" className='flex gap-2'><Image src={'/Svg/settingsIcon.svg'} width={20} height={20} alt='icon' />Project</a>
           <a href="#contact">Contact Me</a>
           <a href='https://resume.io/r/PKaMzuXNP' target='_blank'><button>Resume</button></a>
         </nav>

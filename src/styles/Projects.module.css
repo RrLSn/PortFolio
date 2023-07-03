@@ -23,6 +23,11 @@
     @apply lg:w-[25vw] w-[90%] lg:h-[53vh] h-[max-content] bg-transparent rounded-md lg:p-[2rem] p-[1rem] justify-between cursor-pointer relative block overflow-hidden
 }
 
+.eachProject:hover{
+    transition: color 0.4s ease-in;
+    @apply bg-gradient-to-b from-[#212428] to-[#1c2128]
+}
+
 .img{
     transition: transform 0.4s ease-in-out;
     @apply rounded-md h-[100%]

@@ -14,7 +14,7 @@
     box-shadow: #cc005f inset;
     animation: blob-animation 7s infinite linear;
     
-    @apply lg:w-[3rem] w-[2rem] lg:h-[3rem] h-[2rem] flex justify-start items-center lg:text-3xl text-2xl font-[600] text-[#c2c2c2] relative left-4 pl-4 italic
+    @apply lg:w-[3rem] w-[2rem] lg:h-[3rem] h-[2rem] flex justify-start items-center lg:text-3xl text-2xl font-[600] text-[#c2c2c2] relative left-4 pl-2 italic
 }
 
 .logo:hover{
@@ -86,7 +86,7 @@
     @apply w-[7rem] border-2 border-[#c2c2c2] py-[4px]
 }
 
-.navText button:active{
+.navText button:hover{
     @apply border-[#cc005f] text-[#cc005f]
 }
 

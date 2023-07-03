@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 
 const ContactInputField = () => {
   useEffect(() => {
-    AOS.init({duration: 2000})
+    AOS.init({duration: 1500})
   },[])
   return (
     <div className={styles.contact} data-aos='fade-left'>
