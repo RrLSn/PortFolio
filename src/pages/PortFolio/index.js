@@ -6,7 +6,6 @@ import Projects from '@/Components/Projects'
 import Skills from '@/Components/Skills'
 import ContactMe from '@/Components/ContactMe'
 import PopUp from '@/Components/PopUp'
-// import projectDatas from '@/data'
 
 const index = () => {
 
@@ -45,20 +44,3 @@ const index = () => {
 }
 
 export default index
-
-{/* <div>
-      {
-        showPopup ? 
-        <div><PopUp closePop={closePop} /></div> 
-        : 
-        <div className={styles.wrapper} id='About'>
-          <main className={styles.main}>
-              <NavBar />
-              <About />
-          </main>
-          <Skills />
-          <Projects propValue={showPopup} togglePop={togglePop} />
-          <ContactMe />
-        </div>
-      }
-    </div> */}

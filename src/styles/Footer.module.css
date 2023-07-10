@@ -31,3 +31,7 @@
 .git:hover{
     transform: rotateY(180deg);
 }
+
+.footer{
+    @apply text-[#c2c2c2] flex justify-end w-full h-[max-content] py-2 mt-2
+}

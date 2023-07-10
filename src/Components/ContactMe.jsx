@@ -5,6 +5,7 @@ import Socialmedia from './Socialmedia'
 import ContactInputField from './ContactInputField'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Footer from './Footer'
 
 const ContactMe = () => {
   const iconLinks = [
@@ -67,6 +68,7 @@ const ContactMe = () => {
           
           <ContactInputField />
         </span>
+        <Footer />
     </main>
   )
 }
