@@ -1,9 +1,11 @@
 import React from 'react'
 import styles from '../styles/PopUp.module.css'
+import projectDatas from '@/data'
 
 const PopUp = (props) => {
-    const {projectUrl,projectName,projectDesc,projectImage,closePop} = props
-
+    const {selectedDiv, closePop} = props
+const project = projectDatas.find(el => el.id == selectedDiv)
+const {projectUrl,projectName,projectDesc,projectImage} = project
   return (
     <section className={styles.wrapper}>
         <nav>

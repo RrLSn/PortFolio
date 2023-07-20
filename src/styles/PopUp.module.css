@@ -1,5 +1,5 @@
 .wrapper{
-    @apply w-screen h-screen bg-[#212428] flex justify-center items-center relative
+    @apply w-screen h-screen bg-[#212428] flex justify-center items-center fixed inset-0 overflow-hidden z-10
 }
 
 .wrapper nav{

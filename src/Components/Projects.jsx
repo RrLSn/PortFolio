@@ -3,8 +3,16 @@ import LearnMore from './LearnMore'
 import styles from '../styles/Projects.module.css'
 import Image from 'next/image'
 import projectDatas from '@/data'
+import PopUp from './PopUp'
 
-const Projects = ({propValue,togglePop,selectedDiv}) => {
+const Projects = ({}) => {
+
+  const [showPopup, setShowPopup] = useState(false)
+  const [selectedDiv, setSelectedDiv] = useState(null)
+
+  const closePop = () => {
+    setShowPopup(false)
+  }
   
   return (
     <div className={styles.wrapper} id='project'>
@@ -17,10 +25,18 @@ const Projects = ({propValue,togglePop,selectedDiv}) => {
       <section>
         {projectDatas.map((projectData) => {
           return (
-            <LearnMore key={projectData.id} togglePop={()=>togglePop(projectData.id)} src={projectData.ImageUrl} name={projectData.projectName} desc={projectData.projectDesc} propValue={propValue} />
+            <LearnMore key={projectData.id} togglePop={() => {
+              setSelectedDiv(projectData.id)
+              setShowPopup(true)
+            }} src={projectData.ImageUrl} name={projectData.projectName} desc={projectData.projectDesc} />
           )
         })}
       </section>
+      {
+        showPopup && 
+        
+          <PopUp closePop={closePop} selectedDiv={selectedDiv} />
+      }
     </div>
   )
 }
