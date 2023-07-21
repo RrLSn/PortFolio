@@ -1,17 +1,17 @@
 .wrapper{
-    @apply w-[screen] h-[screen] bg-[#212428] fixed inset-0 overflow-hidden z-10 flex justify-center items-center
+    @apply w-[screen] h-[screen] bg-[#212428] fixed inset-0 z-10 flex justify-center items-center
 }
 
 .wrapper nav{
     border-radius: 15px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    @apply w-[90%] lg:h-[90%] px-[2rem] py-[3rem] lg:flex flex-col items-end
+    @apply w-[90%] lg:h-[90%] px-[2rem] lg:py-[3rem] lg:flex flex-col items-end 
 }
 
 .close{
     border-radius: 10px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    @apply w-[3rem] h-[2rem] py-[0.5rem] px-[0.4rem] cursor-pointer
+    @apply w-[3rem] h-[2rem] py-[0.5rem] px-[0.4rem] cursor-pointer lg:mt-0 mt-3
 }
 
 .close p{
@@ -27,7 +27,7 @@
 }
 
 .projectInfo{
-    @apply w-[100%] h-[85%] mt-[3rem] lg:flex justify-between p-[1.5rem]
+    @apply w-[100%] h-[85%] mt-[3rem] lg:flex justify-between px-[1.5rem] lg:py-[1.5rem] overflow-y-hidden
 }
 
 .projectInfo div:nth-child(1){
@@ -35,7 +35,7 @@
 }
 
 .projectInfo div:nth-child(2){
-    @apply lg:w-[50%] lg:h-[100%] h-[80%] flex flex-col justify-between px-[2rem] text-[#c2c2c2] py-[4rem]
+    @apply lg:w-[50%] lg:h-[max-content] h-[80%] flex flex-col lg:gap-y-8 gap-y-4 lg:px-[2rem] text-[#c2c2c2] lg:py-[4rem] py-10 items-center text-center
 }
 
 .projectInfo div:nth-child(2) h1{
@@ -52,5 +52,5 @@
 }
 
 .projectInfo div:nth-child(2) h2{
-    @apply lg:text-2xl font-bold text-[#c4cfde]
+    @apply lg:text-2xl font-bold text-[#c2c2c2]
 }

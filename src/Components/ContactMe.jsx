@@ -3,33 +3,12 @@ import Image from 'next/image'
 import styles from '../styles/ContactMe.module.css'
 import Socialmedia from './Socialmedia'
 import ContactInputField from './ContactInputField'
+import { iconLinks } from '@/data'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Footer from './Footer'
 
 const ContactMe = () => {
-  const iconLinks = [
-    {
-      src: '/Svg/linkedin.svg',
-      link: 'https://www.linkedin.com/in/sodiq-afolabi-b91555270/'
-    },
-    {
-      src: '/Svg/whatsapp.svg',
-      link: 'https://wa.me/+2349039757928?text=urlencodedtext'
-    },
-    {
-      src: '/Svg/gmail.svg',
-      link: ''
-    },
-    {
-      src: '/Svg/twitter.svg',
-      link: 'https://twitter.com/Afolabi_Sq'
-    },
-    {
-      src: '/Svg/github.svg',
-      link: 'https://github.com/RrLSn?tab=repositories'
-    },
-  ]
 
   useEffect(()=> {
     AOS.init({duration: 1500})
