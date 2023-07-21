@@ -5,7 +5,7 @@
 .wrapper nav{
     border-radius: 15px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    @apply w-[90%] h-[90%] px-[2rem] py-[3rem] lg:flex flex-col items-end
+    @apply w-[90%] lg:h-[90%] px-[2rem] py-[3rem] lg:flex flex-col items-end
 }
 
 .close{
@@ -31,15 +31,15 @@
 }
 
 .projectInfo div:nth-child(1){
-    @apply w-[43%] lg:h-[90%] rounded-md flex items-center justify-center lg:m-0 m-auto
+    @apply lg:w-[43%] w-[100%] h-[90%] rounded-md flex items-center justify-center lg:m-0 m-auto
 }
 
 .projectInfo div:nth-child(2){
-    @apply lg:w-[50%] lg:h-[100%] flex flex-col justify-between px-[2rem] text-[#c2c2c2] py-[4rem]
+    @apply lg:w-[50%] lg:h-[100%] h-[80%] flex flex-col justify-between px-[2rem] text-[#c2c2c2] py-[4rem]
 }
 
 .projectInfo div:nth-child(2) h1{
-    @apply lg:text-5xl text-3xl text-[#c4cfde] font-[600] overflow-hidden
+    @apply lg:text-5xl text-2xl text-[#c4cfde] font-[600] overflow-hidden
 }
 
 .projectInfo div:nth-child(2) p{
