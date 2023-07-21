@@ -13,7 +13,6 @@ const index = () => {
   
   return (
     <div>
-       
         <div className={styles.wrapper} id='About'>
           <NavBar />
           <main className={styles.main}>

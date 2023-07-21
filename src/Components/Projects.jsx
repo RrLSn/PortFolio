@@ -31,12 +31,13 @@ const Projects = ({}) => {
             }} src={projectData.ImageUrl} name={projectData.projectName} desc={projectData.projectDesc} />
           )
         })}
-      </section>
-      {
+
+        {
         showPopup && 
-        
-          <PopUp closePop={closePop} selectedDiv={selectedDiv} />
-      }
+          <PopUp closePop={closePop} selectedDiv={selectedDiv} proj />
+        }
+      </section>
+      
     </div>
   )
 }

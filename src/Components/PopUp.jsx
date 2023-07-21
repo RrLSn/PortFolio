@@ -1,13 +1,14 @@
 import React from 'react'
 import styles from '../styles/PopUp.module.css'
 import projectDatas from '@/data'
+import Image from 'next/image'
 
 const PopUp = (props) => {
     const {selectedDiv, closePop} = props
-const project = projectDatas.find(el => el.id == selectedDiv)
-const {projectUrl,projectName,projectDesc,projectImage} = project
+    const project = projectDatas.find(el => el.id == selectedDiv)
   return (
-    <section className={styles.wrapper}>
+    <section>
+        <div className={styles.wrapper}>
         <nav>
             <div className={styles.close} onClick={closePop}>
                 <p></p>
@@ -15,15 +16,18 @@ const {projectUrl,projectName,projectDesc,projectImage} = project
             </div>
 
             <div className={styles.projectInfo}>
-                <div>{projectImage}</div>
+                <div>
+                 <Image width={400} height={200} src={project.ImageUrl} alt='Project Image' className='rounded-md' />
+                </div>
 
                 <div>
-                    <h1>{projectName}</h1>
-                    <p>{projectDesc}</p>
-                    <button><a href={projectUrl}>VIEWED PROJECT</a></button>
+                    <h1>{project.projectName}</h1>
+                    <h2>TECH/FRAMEWORK USED: {project.projectDesc}</h2>
+                    <button><a href={project.projectUrl} target='_blank'>VIEW PROJECT</a></button>
                 </div>
             </div>
         </nav>
+        </div>
     </section>
   )
 }
