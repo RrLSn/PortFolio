@@ -34,7 +34,7 @@ const Projects = ({}) => {
 
         {
         showPopup && 
-          <PopUp closePop={closePop} selectedDiv={selectedDiv} proj />
+          <PopUp closePop={closePop} selectedDiv={selectedDiv} />
         }
       </section>
       
