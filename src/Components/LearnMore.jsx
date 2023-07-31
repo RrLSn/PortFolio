@@ -8,7 +8,7 @@ const LearnMore = (props) => {
   
     const {src,name,desc,togglePop} = props
     useEffect(() => {
-      AOS.init({duration: 1500})
+      AOS.init({duration: 1000})
     },[])
 
   return (

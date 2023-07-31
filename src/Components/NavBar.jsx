@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'
 
 const NavBar = () => {
   useEffect(()=> {
-    AOS.init({duration: 1500})
+    AOS.init({duration: 1000})
   },[])
   const [toggle, setToggle] = useState(true)
 

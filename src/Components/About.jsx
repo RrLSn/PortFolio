@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 
 const About = () => {
   useEffect(() => {
-    AOS.init({duration: 1500})
+    AOS.init({duration: 1000})
   },[])
   return (
     <main className={styles.container} >
