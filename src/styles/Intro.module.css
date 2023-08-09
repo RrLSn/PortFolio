@@ -55,21 +55,7 @@
 .social{
     display: inline-block;
     position: initial;
-    opacity: 0;
+    opacity: 0.5;
     top: 0;
-    animation-name: button;
-    transition-property: all;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-    transition-timing-function: linear;
     @apply lg:w-[2rem] w-[1rem]
-}
-
-.social:hover{
-    transform: rotateX(180deg);
-}
-
-@keyframes button {
-    0% {opacity: 0; transform: rotateY(180deg)}
-    100% {opacity: 0.5}
 }

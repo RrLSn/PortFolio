@@ -24,7 +24,7 @@ const ContactMe = () => {
       <span className={styles.contactsection}>
           <div className={styles.sideFooter} data-aos='flip-left'>
             <div className={styles.image}>
-              <Image src={'/Media/contact.png'} width={400} height={100} layout='contain' className={styles.img} data-aos='fade-down' />
+              <Image src={'/Media/contact.png'} width={400} height={100} className={styles.img} data-aos='fade-down' />
             </div>
 
             <h1>AFOLABI SODIQ</h1>
@@ -36,8 +36,8 @@ const ContactMe = () => {
               <section className='p-[1rem] flex flex-wrap justify-between'>
                 {iconLinks.map((iconlink,index) => {
                   return (
-                    <div className={styles.eachIcon}>
-                      <Socialmedia socialIcon={iconlink.src} link={iconlink.link} key={index} />
+                    <div className={styles.eachIcon} key={index}>
+                      <Socialmedia socialIcon={iconlink.src} link={iconlink.link} />
                     </div>
                   )
                 })}

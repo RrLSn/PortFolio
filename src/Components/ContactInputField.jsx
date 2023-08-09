@@ -1,12 +1,9 @@
 import React, { useEffect } from 'react'
 import styles from '../styles/ContactMe.module.css'
-import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const ContactInputField = () => {
-  useEffect(() => {
-    AOS.init({duration: 1000})
-  },[])
+
   return (
     <div className={styles.contact} data-aos='fade-left'>
             <div data-aos='slide-right'>
