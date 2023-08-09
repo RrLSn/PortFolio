@@ -7,7 +7,7 @@
     background-size: 100% 100%;
     background-color: #151515;
     background-blend-mode: darken;
-    @apply lg:flex px-[1.5rem] pt-[2rem] 
+    @apply lg:flex px-[1.5rem] pt-[2rem] overflow-hidden
 }
 
 .introText{
@@ -44,7 +44,7 @@
 }
 
 .icons{
-    @apply flex lg:flex-col lg:w-[20px] w-screen lg:h-[max-content] gap-6 lg:pt-[18rem]
+    @apply flex lg:flex-col lg:w-[20px] w-screen lg:h-[max-content] gap-6 lg:pt-[18rem] overflow-hidden
 }
 
 .icons::before{
