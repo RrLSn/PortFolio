@@ -44,12 +44,12 @@
 }
 
 .icons{
-    @apply flex lg:flex-col lg:w-[20px] w-screen lg:h-[max-content] gap-6 lg:pt-[18rem] overflow-hidden
+    @apply flex lg:flex-col lg:w-[25px] w-screen lg:h-[max-content] gap-6 lg:pt-[16rem] overflow-hidden
 }
 
 .icons::before{
     content: '';
-    @apply lg:block hidden h-[27%] w-[1px] bg-[#c2c2c2] absolute lg:right-[27px] lg:top-[35rem]
+    @apply lg:block hidden h-[27%] w-[1px] bg-[#c2c2c2] absolute lg:right-[30px] lg:top-[35rem]
 }
 
 .social{

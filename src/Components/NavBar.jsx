@@ -16,6 +16,11 @@ const NavBar = () => {
     },
   }
 
+  // const navVariants = {
+  //   hidden:{opacity : 0, x: "-200vh"},
+  //   visible: {opacity: !toggle ? 1 : "", x: !toggle ? 0 : "", transition: {stiffness: 150, duration: 5}}
+  // }
+
   return (
     <div>
       <nav className={styles.wrapper}>
@@ -47,7 +52,7 @@ const NavBar = () => {
           </motion.div>
           
       </nav>
-      <motion.div className={`${styles.activesideNav} ${toggle && styles.sideNav} bg-transparent`} onClick={() => setToggle(!toggle)}>
+      <div className={`${styles.activesideNav} ${toggle && styles.sideNav} bg-transparent`} onClick={() => setToggle(!toggle)}>
         <nav>
           <a href="#About">About</a>
           <a href="#skills">Skills</a>
@@ -55,7 +60,7 @@ const NavBar = () => {
           <a href="#contact">Contact Me</a>
           <a href='https://resume.io/r/PKaMzuXNP' target='_blank'><button>Resume</button></a>
         </nav>
-      </motion.div>
+      </div>
     </div>
   )
 }
