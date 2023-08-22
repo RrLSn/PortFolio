@@ -8,7 +8,7 @@ const PopUp = (props) => {
     const {selectedDiv, closePop} = props
     const project = projectDatas.find(el => el.id == selectedDiv)
     const popUpVariants = {
-        hidden:{opacity:0, y:-300},
+        hidden:{opacity:0, y:-300, transition: {duration: 0.2, stiffness: 150}},
         visible: {opacity: 1, y:0, transition: {duration: 0.2, stiffness: 150}}
     }
 

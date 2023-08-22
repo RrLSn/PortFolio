@@ -5,7 +5,7 @@
     background-size: 100% 100%;
     background-color: #151515;
     background-blend-mode: exclusion;
-    @apply pt-[10rem] lg:px-[10rem] px-[2rem] pb-[2.5rem] w-[100vw] lg:h-[100vh] h-[max-content]
+    @apply pt-[10rem] lg:px-[3rem] px-[2rem] pb-[2.5rem] w-screen lg:h-screen h-[max-content] flex items-center
 }
 
 .info{

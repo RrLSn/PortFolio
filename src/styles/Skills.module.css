@@ -1,5 +1,5 @@
 .wrapper{
-    @apply w-[100vw] h-[max-content] lg:py-[8rem]
+    @apply w-screen h-screen lg:py-[8rem]
     py-[5rem]
 }
 
