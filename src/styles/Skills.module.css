@@ -1,6 +1,6 @@
 .wrapper{
     @apply w-screen h-screen lg:py-[8rem]
-    py-[5rem]
+    py-[5rem] overflow-hidden
 }
 
 .heading{
@@ -16,12 +16,12 @@
 }
 
 .skills{
-    @apply lg:w-[50vw] min-w-[50vw] m-auto mt-20 lg:flex flex-wrap items-center justify-center gap-[24px] py-4 overflow-hidden
+    @apply lg:w-[50vw] h-[max-content] min-w-[50vw] m-auto mt-20 lg:flex flex-wrap items-center justify-center gap-[24px] py-4 overflow-hidden
 }
 
 .Skill{
     width: 15rem;
-    height: 7rem;
+    height: 8rem;
     border-radius: 15px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     background: transparent;

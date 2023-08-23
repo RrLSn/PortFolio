@@ -20,7 +20,7 @@
     transition: all 0.4s ease-in-out;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     z-index: 1;
-    @apply lg:w-[25vw] w-[90%] lg:h-[53vh] h-[max-content] bg-transparent rounded-md lg:p-[2rem] p-[1rem] justify-between relative block overflow-hidden
+    @apply lg:w-[25vw] w-[90%] h-[max-content] bg-transparent rounded-md lg:p-[2rem] p-[1rem] justify-between relative block overflow-hidden
 }
 
 .eachProject:hover{
