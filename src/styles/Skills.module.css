@@ -1,5 +1,5 @@
 .wrapper{
-    @apply w-screen h-screen lg:py-[8rem]
+    @apply w-screen h-[max-content]
     py-[5rem] overflow-hidden
 }
 

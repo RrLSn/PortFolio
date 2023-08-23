@@ -23,7 +23,7 @@
     border-radius: 15px;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     background: transparent;
-    @apply lg:w-[30vw] w-[100%] lg:h-[85vh] h-[max-content] p-[2rem] flex flex-col justify-between cursor-pointer
+    @apply lg:w-[30vw] w-[100%] h-[max-content] p-[2rem] flex flex-col justify-between cursor-pointer
 }
 
 .image{
@@ -39,7 +39,7 @@
 }
 
 .sideFooter h1{
-    @apply lg:text-4xl text-2xl font-[600] overflow-hidden
+    @apply lg:text-4xl text-2xl font-[600] overflow-hidden my-3
 }
 
 .sideFooter p{

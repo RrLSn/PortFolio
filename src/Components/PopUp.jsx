@@ -36,7 +36,7 @@ const PopUp = (props) => {
                         <h2>TECH/FRAMEWORK USED: {project.projectDesc}</h2>
                         <div className='flex w-[max-context] h-[max-content] py-[1rem] px-[0.5rem] lg:gap-x-5 gap-x-3'>
                             <button><a href={project.projectUrl} target='_blank'>VIEW PROJECT</a></button>
-                            <a href='https://github.com/RrLSn?tab=repositories' target='_blank' className='flex justify-center items-center'>
+                            <a href='https://github.com/RrLSn?tab=repositories' target='_blank' className='flex overflow-hidden justify-center items-center'>
                                 <motion.div whileHover={{rotateZ: 360}}>
                                     <Image src='/Svg/github.svg' className='opacity-[0.5] lg:w-[4vw] w-[4vw]' width={40} height={20} alt='Social' />
                                 </motion.div>

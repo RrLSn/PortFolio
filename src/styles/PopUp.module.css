@@ -27,7 +27,7 @@
 }
 
 .projectInfo{
-    @apply w-[100%] h-[85%] mt-[3rem] lg:flex justify-between px-[1.5rem] lg:py-[1.5rem] overflow-y-hidden
+    @apply w-[100%] h-[85%] mt-[3rem] lg:flex justify-between px-[1.5rem] lg:py-[1.5rem] items-center overflow-hidden
 }
 
 .projectInfo div:nth-child(1){

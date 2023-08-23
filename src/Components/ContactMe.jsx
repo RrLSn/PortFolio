@@ -24,7 +24,7 @@ const ContactMe = () => {
       <span className={styles.contactsection}>
           <div className={styles.sideFooter} data-aos='flip-left'>
             <div className={styles.image}>
-              <Image src={'/Media/contact.png'} width={400} height={100} className={styles.img} data-aos='fade-down' />
+              <Image src={'/Media/contact.png'} width={600} height={100} className={styles.img} data-aos='fade-down' />
             </div>
 
             <h1>AFOLABI SODIQ</h1>
@@ -32,7 +32,7 @@ const ContactMe = () => {
             <p>Email: <a href='' className='hover:text-[#cc005f] hover:underline cursor-pointer'>afolabisodiqtemitope@yahoo.com</a></p>
 
             <div>
-              <h4 className='text-[#c2c2c2]'>FIND ME ON:</h4>
+              <h4 className='text-[#c2c2c2] my-2'>FIND ME ON:</h4>
               <section className='p-[1rem] flex flex-wrap justify-between'>
                 {iconLinks.map((iconlink,index) => {
                   return (
