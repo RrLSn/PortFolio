@@ -10,7 +10,7 @@ const LearnMore = (props) => {
   return (
     <div className={styles.eachProject} data-aos='fade-up'>
       <div className='h-[13rem] w-[100%] overflow-hidden'>
-        <Image src={src} width={500} height={100} className={styles.img} alt='project' />
+        <Image src={src} width={300} height={100} className={styles.img} alt='project' />
       </div>
       <p>{name}</p>
       <h1 onClick={togglePop}>{desc} <span></span></h1>

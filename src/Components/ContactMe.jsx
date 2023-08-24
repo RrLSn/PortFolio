@@ -24,7 +24,7 @@ const ContactMe = () => {
       <span className={styles.contactsection}>
           <div className={styles.sideFooter} data-aos='flip-left'>
             <div className={styles.image}>
-              <Image src={'/Media/contact.png'} width={600} height={100} className={styles.img} data-aos='fade-down' />
+              <Image src={'/Media/contact.png'} width={400} height={100} className={styles.img} data-aos='fade-down' />
             </div>
 
             <h1>AFOLABI SODIQ</h1>
