@@ -16,7 +16,7 @@
 }
 
 .contactsection{
-    @apply w-screen h-[max-content] lg:flex justify-between m-auto px-10 py-[2rem]
+    @apply w-full h-[max-content] lg:flex justify-between m-auto px-10 py-[2rem]
 }
 
 .sideFooter{
