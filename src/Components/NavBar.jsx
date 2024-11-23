@@ -71,7 +71,7 @@ const NavBar = () => {
             Contact Me
           </a>
           <a
-            href="https://storage.cloud.google.com/resumee/Resume%20-%20Google%20Docs.pdf"
+            href="https://storage.cloud.google.com/resume_one/Resum%C3%A9.pdf"
             target="_blank"
             data-aos="zoom-in"
           >
