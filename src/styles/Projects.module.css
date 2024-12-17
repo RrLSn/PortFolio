@@ -1,51 +1,51 @@
-.wrapper{
-    border-top: 1px solid black;
-    @apply w-screen py-[8rem] text-[#c2c2c2] lg:px-[5rem] px-[1.5rem] m-auto justify-center
+.wrapper {
+  border-top: 1px solid black;
+  @apply w-screen py-[8rem] text-[#c2c2c2] lg:px-[5rem] px-[1.5rem] m-auto justify-center;
 }
 
-.heading{
-    @apply flex flex-col items-center mb-[3.5rem] text-center
+.heading {
+  @apply flex flex-col items-center mb-[3.5rem] text-center;
 }
 
-.heading h1{
-    @apply flex text-4xl gap-2 font-[600] mb-2 text-center
+.heading h1 {
+  @apply flex text-3xl gap-2 font-[600] mb-2 text-center;
 }
 
 .wrapper section {
-    @apply max-w-[100%] h-[max-content] flex justify-center m-auto flex-wrap gap-[24px] py-[2rem] overflow-y-hidden px-10
+  @apply max-w-[100%] h-[max-content] flex justify-center m-auto flex-wrap gap-[24px] py-[2rem] overflow-y-hidden px-10;
 }
 
-.eachProject{
-    border-radius: 15px;
-    transition: all 0.4s ease-in-out;
-    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    z-index: 1;
-    @apply w-[max-content] lg:h-[50vh] h-[max-content] bg-transparent rounded-md lg:p-[2rem] p-[1rem] justify-between relative block overflow-hidden
+.eachProject {
+  border-radius: 15px;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  z-index: 1;
+  @apply w-[25rem] lg:h-[50vh] h-[max-content] bg-transparent rounded-md p-[2rem] justify-between relative block overflow-hidden;
 }
 
-.eachProject:hover{
-    transition: color 0.4s ease-in;
-    @apply bg-gradient-to-b from-[#212428] to-[#1c2128]
+.eachProject:hover {
+  transition: color 0.4s ease-in;
+  @apply bg-gradient-to-b from-[#212428] to-[#1c2128];
 }
 
-.img{
-    transition: transform 0.4s ease-in-out;
-    @apply rounded-md h-[100%]
+.img {
+  transition: transform 0.4s ease-in-out;
+  @apply rounded-md h-full w-full;
 }
 
-.eachProject:hover .img{
-    transform: scale(1.5);
+.eachProject:hover .img {
+  transform: scale(1.5);
 }
 
-.eachProject p{
-    @apply text-[#cc005f] font-[500] lg:text-[1.2rem] my-4
+.eachProject p {
+  @apply text-[#cc005f] font-[500] lg:text-[1.2rem] my-4;
 }
 
-.eachProject h1{
-    transition: color 0.3s ease-out;
-    @apply font-[700] text-[1.4rem] text-[#c4cfde] cursor-pointer
+.eachProject h1 {
+  transition: color 0.3s ease-out;
+  @apply font-[700] text-[1.4rem] text-[#c4cfde] cursor-pointer;
 }
 
-.eachProject h1:hover{
-    @apply text-[#cc005f] underline
+.eachProject h1:hover {
+  @apply text-[#cc005f] underline;
 }
